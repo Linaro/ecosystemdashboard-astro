@@ -1,0 +1,30 @@
+- name: os
+  label: Operating Systems
+  image: /assets/images/content/DataCenter.jpg
+- name: cloud
+  label: Virtualization, Cloud, Cloud Native
+  image: /assets/images/content/DataCenter.jpg
+- name: storage
+  label: Storage
+  image: /assets/images/content/DataCenter.jpg
+- name: web
+  label: Web
+  image: /assets/images/content/DataCenter.jpg
+- name: database
+  label: Database
+  image: /assets/images/content/DataCenter.jpg
+- name: bigdata
+  label: Big Data
+  image: /assets/images/content/DataCenter.jpg
+- name: ai
+  Label: Artificial Intelligence
+  image: /assets/images/content/AI.png
+- name: libraries
+  label: Programming Language, Libraries & Toolchain
+  image: /assets/images/content/DataCenter.jpg
+- name: middleware
+  label: Applications & Middleware
+  image: /assets/images/content/DataCenter.jpg
+- name: hpc
+  label: OpenHPC
+  image: /assets/images/content/DataCenter.jpg

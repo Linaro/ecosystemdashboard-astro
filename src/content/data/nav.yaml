@@ -1,0 +1,26 @@
+- label: Projects
+  key: projects
+  url: https://www.linaro.org/projects/
+- label: Membership
+  key: membership
+  url: https://www.linaro.org/membership/
+- label: Services
+  key: services
+  url: https://www.linaro.org/services/
+- label: Support
+  key: support
+  url: https://www.linaro.org/support/
+- label: Downloads
+  key: downloads
+  url: https://www.linaro.org/downloads/
+- label: About
+  key: about
+  children:
+    - label: About US
+      url: https://www.linaro.org/about/
+    - label: Blogs
+      url: https://www.linaro.org/blog/
+    - label: Events
+      url: https://www.linaro.org/events/
+    - label: News
+      url: https://www.linaro.org/news/

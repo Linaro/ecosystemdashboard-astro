@@ -1,0 +1,41 @@
+---
+import { getEntry } from "astro:content";
+import Categories from "../projects/Categories.astro";
+import { getCollection } from "astro:content";
+
+const {data: categories} = await getEntry("data", "categories");
+// const allPosts = await getCollection('posts');
+
+const osPosts = await getCollection('posts', ({data}) => { return data.category === 'os'});
+const librariesPosts = await getCollection('posts', ({data}) => { return data.category === 'libraries'});
+const middlewarePosts = await getCollection('posts', ({data}) => { return data.category === 'middleware'});
+const bigDataPosts = await getCollection('posts', ({data}) => { return data.category === 'bigdata'});
+const webPosts = await getCollection('posts', ({data}) => { return data.category === 'web'});
+const hpcPosts = await getCollection('posts', ({data}) => { return data.category === 'hpc'});
+const aiPosts = await getCollection('posts', ({data}) => { return data.category === 'ai'});
+const cloudPosts = await getCollection('posts', ({data}) => { return data.category === 'cloud'});
+const databasePosts = await getCollection('posts', ({data}) => { return data.category === 'database'});
+const storagePosts = await getCollection('posts', ({data}) => { return data.category === 'storage'});
+// try by mapping all posts and see which is faster
+const postsByCategory = {
+    os: osPosts, 
+    middleware:middlewarePosts,
+    libraries: librariesPosts,
+    bigdata: bigDataPosts, 
+    web: webPosts,
+    hpc: hpcPosts,
+    ai: aiPosts, 
+    cloud: cloudPosts, 
+    database: databasePosts, 
+    storage: storagePosts
+}
+
+---
+
+<div class="flex gap-4 justify-self-center w-full">
+    <div class="w-full">
+        { categories.map((item: {name: string, label: string}) => (
+        <Categories item={item} posts={postsByCategory[item.name as keyof typeof postsByCategory]}/>
+        ))}
+    </div>
+</div>

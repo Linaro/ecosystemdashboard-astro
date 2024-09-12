@@ -1,0 +1,15 @@
+---
+import { Image } from "astro:assets";
+const {post} = Astro.props;
+// import logo from `${post.data.project.logo}`;
+
+
+const logoUrl = post.data.project.logo
+---
+
+<div class="flex flex-col items-center gap-4">
+    <div class="rounded-full h-32 w-32 bg-white">
+                <!-- {logoUrl ? <Image src={post.data.project.logo}/> : <h1>no logo</h1>} -->
+    </div>
+    <h1 class="md:prose-sm text-white">{post.data.project.title}</h1>
+</div>
