@@ -4,41 +4,22 @@ slug: ""
 title: Linaro Ecosystem Dashboard
 description: >
   The Linaro Ecosystem Dashboard has been created to provide a centralized information hub for Arm developers across the world.
-hero:
-  # title: Homepage Hero Text
-  # background_image: "../../assets/images/hero.jpg"
-  # inner_image:
-  #   src: "../../assets/images/linaro-logo-white.svg"
-  #   alt: Linaro logo
-  # style: text-center uppercase
-
-  style: text-center font-weight-bold
-  title: Ecosystem Dashboard
-  background_image: ../../assets/images/content/Mesadetrabajo13.png
 flow:
   - row: container_row
-    style:
     sections:
-      # - component: title
-      #   style: text-center
-      #   title_content:
-      #     style: font-bold
-      #     size: h2
-      #     text: Welcome to linaro-astro-template
       - component: text
-        style: text-center text-color-white
         text_content:
-          text: |-
-            The hub for all Arm developers across the world
-
-            Click the projects' logos to check Arm support details
-
-            Want to submit a project? 
-
-            Click here for guidelines and instructions first
+          text: The hub for all Arm developers across the world
+        style: text-center text-5xl mt-16
+      - component: text
+        text_content:
+          text: Click the projects' logos to check Arm support details
+        style: text-center text-2xl mt-16
+      - component: text
+        text_content:
+          text: Want to submit a project? <br>[Click here](https://github.com/Linaro/ecosystemlandscape#project-details-structure) for guidelines and instructions first
+        style: text-center text-2xl mb-0 mt-8
   - row: container_row
     sections:
       - component: projects
 ---
-
-12

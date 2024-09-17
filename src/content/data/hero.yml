@@ -1,0 +1,6 @@
+inner_image:
+  src: "../../assets/images/linaro-logo-white.svg"
+  alt: Linaro logo
+style: text-center text-linaro-yellow bg-linaro-gradient flex flex-col items-center justify-center px-5 h-128
+title: Ecosystem Dashboard
+background_image: ../../assets/images/hero-background.png

@@ -17,7 +17,7 @@
   label: Big Data
   image: /assets/images/content/DataCenter.jpg
 - name: ai
-  Label: Artificial Intelligence
+  label: Artificial Intelligence
   image: /assets/images/content/AI.png
 - name: libraries
   label: Programming Language, Libraries & Toolchain

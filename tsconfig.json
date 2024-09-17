@@ -3,9 +3,11 @@
   "compilerOptions": {
     "allowJs": true,
     "strictNullChecks": true,
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js"
   }
 }

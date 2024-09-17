@@ -1,35 +1,30 @@
 ---
 import { Image, getImage } from "astro:assets";
-import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
 
-type Props = CollectionEntry<"pages">["data"]["hero"];
+import logo from "@/assets/images/linaro-logo-white.svg";
 
-const { title, background_image, style, inner_image, description } = Astro.props!;
-
+const heroData = await getEntry("data", "hero");
 ---
 
-<section
-  class:list={[
-    style,
-    "hero-background",
-    "flex flex-col items-center text-white justify-around px-5 h-96",
-  ]}
->
-  {inner_image ?  <Image
-    src={inner_image.src}
-    alt={inner_image.alt}
-    class="w-64"
-  /> : <></>}
-  <h1 class="text-inherit text-3xl lg:text-5xl text-left">{title}</h1>
-  <h3 class="text-inherit text-3xl lg:text-5xl text-left">{description}</h3>
-</section>
-
-<style define:vars={{ backgroundUrl: `url(${background_image.src})` }}>
-  .hero-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      var(--backgroundUrl);
-    background-position: center;
-    object-fit: cover;
-  }
-</style>
-
+<>
+  <section
+    class:list={[
+      heroData.data.style,
+      "hero-background"
+    ]}
+  >
+    <Image src={logo} alt={heroData.data.inner_image.alt} class="w-64" />
+    <h1 class="text-inherit text-4xl">{heroData.data.title}</h1>
+  </section>
+  <style
+  >
+    .hero-background {
+      background-image: url(../../src/assets/images/hero-background.png);
+      background-color: linear-gradient(102deg, #FFCE00 -0.43%, #6715E8 95.75%);
+      background-position: center;
+      object-fit: cover;
+      border-bottom: 10px solid #ffce00;
+    }
+  </style>
+</>

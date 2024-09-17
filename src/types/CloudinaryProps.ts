@@ -1,10 +1,9 @@
 export interface CloudinaryProps {
+  width: number;
 
-    width: number;
+  height: number;
 
-    height: number;
-
-    resize?:
+  resize?:
     | "crop"
     | "fill"
     | "scale"
@@ -17,29 +16,28 @@ export interface CloudinaryProps {
     | "limitPad"
     | "fillPad";
 
-    gravity?: "face" | "auto";
+  gravity?: "face" | "auto";
 
-    cornerRadius?: number | "max";
+  cornerRadius?: number | "max";
 
-    rotate?: number;
+  rotate?: number;
 
-    effects?: [
-        | "blur"
-        | "grayscale"
-        | "sepia"
-        | "shadow"
-        | "colorize"
-        | "oilPaint"
-        | "cartoonify"
-        | "outline"
-        | "blackwhite"
-        | "makeTransparent"
-        | "vectorize"
-        | "gradientFade"
-        | "assistColorBlind"
-        | "removeBackground"
-        | "backgroundRemoval"
-        | "dropShadow"
-    ]
-
+  effects?: [
+    | "blur"
+    | "grayscale"
+    | "sepia"
+    | "shadow"
+    | "colorize"
+    | "oilPaint"
+    | "cartoonify"
+    | "outline"
+    | "blackwhite"
+    | "makeTransparent"
+    | "vectorize"
+    | "gradientFade"
+    | "assistColorBlind"
+    | "removeBackground"
+    | "backgroundRemoval"
+    | "dropShadow",
+  ];
 }

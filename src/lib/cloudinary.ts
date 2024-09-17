@@ -174,7 +174,7 @@ export const getCloudinarySrc = ({ src, ...props }: Props) => {
       props.gravity !== null
     ) {
       resizeFunction.gravity(
-        props.gravity === "face" ? focusOn(FocusOn.faces()) : autoGravity()
+        props.gravity === "face" ? focusOn(FocusOn.faces()) : autoGravity(),
       );
     }
 
@@ -183,7 +183,7 @@ export const getCloudinarySrc = ({ src, ...props }: Props) => {
 
   if (props.cornerRadius !== undefined && props.cornerRadius !== null) {
     imageSource.roundCorners(
-      props.cornerRadius === "max" ? max() : byRadius(props.cornerRadius)
+      props.cornerRadius === "max" ? max() : byRadius(props.cornerRadius),
     );
   }
 

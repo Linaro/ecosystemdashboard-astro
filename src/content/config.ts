@@ -28,9 +28,9 @@ const pages = defineCollection({
                 .object({
                   component: reference("sections"),
                 })
-                .catchall(z.any())
+                .catchall(z.any()),
             ),
-          })
+          }),
         )
         .optional(),
     }),
@@ -56,9 +56,9 @@ const data = defineCollection({
 });
 
 const posts = defineCollection({
-  type: 'content',
-  schema: z.any()
-})
+  type: "content",
+  schema: z.any(),
+});
 
 // Expose your defined collection to Astro
 // with the `collections` export
@@ -67,5 +67,5 @@ export const collections = {
   rows,
   sections,
   data,
-  posts
+  posts,
 };

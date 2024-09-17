@@ -1,0 +1,67 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { Image, getImage } from "astro:assets";
+import BaseLayout from "./BaseLayout.astro";
+import logos from "@/assets/images/content/projectLogos/centos.png";
+
+type Props = {
+  project: CollectionEntry<"posts">;
+};
+
+const {
+  project: {
+    data: {
+      project: { title, overview, logo, url, project_official_url },
+      supported_releases,
+      events,
+    },
+  },
+} = Astro.props;
+
+console.log('layout', Astro.props.project)
+---
+
+<BaseLayout title={title} description={overview}>
+  <section class="mx-48 my-24">
+    <div class="flex flex-col text-center">
+      <h1 class="text-4xl mb-3">{title}</h1>
+      <h1 class="text-xl my-3">{overview}</h1>
+      <Image src={logos} alt="logo" height={100} width={100} />
+      <a href={project_official_url} class="text-linaro-yellow">{project_official_url}</a>
+      <div class="faded-line"></div>
+    </div>
+    <div class="mb-12 flex flex-col gap-12 justify-end">
+      <h1 class="text-2xl">Details</h1>
+      <dl>
+        <hr />
+        <dt class="my-3">AArch64 Supported Releases</dt>
+        {supported_releases &&
+          supported_releases.map((item: any) => (
+            <hr />
+            <dd class="text-linaro-yellow my-3">
+              
+              <a href={item.url}>{item.version}</a>
+            </dd>
+            
+          ))
+        }
+        <hr />
+        <dt class="my-3">News and Events</dt>
+        {events && 
+          events.map((item: any) => (
+            <hr />
+            <dd class="text-linaro-yellow my-3">
+              
+              <a href={item.url}>
+                {`[${item.type}]`} {item.title} {`(${item.language})`}
+              </a>
+            </dd>
+          ))
+        }
+        <hr />
+      </dl>
+      <a href="/" class="linaro-gradient-button self-center mt-8">Back to dashboard</a>
+    </div>
+   
+  </section>
+</BaseLayout>

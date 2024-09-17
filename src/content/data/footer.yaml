@@ -13,5 +13,8 @@ footer_brand:
 social_media_icons: false
 # These links are displayed at the very bottom of the footer.
 company_links:
-  - name: Contact
+  - label: Contact
     url: https://www.linaro.org/contact/
+  - label: Legal
+    url: https://www.linaro.org/legal
+nav_links:
