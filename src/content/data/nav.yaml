@@ -16,7 +16,7 @@
 - label: About
   key: about
   children:
-    - label: About US
+    - label: About Us
       url: https://www.linaro.org/about/
     - label: Blogs
       url: https://www.linaro.org/blog/

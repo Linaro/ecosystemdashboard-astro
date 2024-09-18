@@ -1,0 +1,17 @@
+---
+layout: project
+permalink: /:title/
+category: storage
+
+meta:
+  keywords: "DRBD"
+
+project:
+  title: "DRBD"
+  type: "C"
+  ci_url: "https://launchpad.net/ubuntu/focal/arm64/drbd-utils"
+  url: "https://launchpad.net/ubuntu/focal/arm64/drbd-utils"
+  logo: "/assets/images/projects/storage/drbd.png"
+---
+
+<p>DRBD</p>
