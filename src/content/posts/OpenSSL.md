@@ -12,7 +12,7 @@ project:
   ci_url: "https://travis-ci.com/github/openssl/openssl"
   url: "https://travis-ci.com/github/openssl/openssl"
   project_official_url: "https://www.openssl.org/"
-  logo: "/assets/images/projects/libraries/openssl.png"
+  logo: "/src/assets/images/content/projectLogos/openssl.png"
   overview: "OpenSSL is a robust, commercial-grade, full-featured Open Source Toolkit for the Transport Layer Security (TLS) protocol formerly known as the Secure Sockets Layer (SSL) protocol. The protocol implementation is based on a full-strength general purpose cryptographic library, which can also be used stand-alone."
 supported_releases:
   - release:
@@ -53,7 +53,7 @@ project:
   type: "C"
   ci_url: "https://travis-ci.com/github/openssl/openssl"
   url: "https://travis-ci.com/github/openssl/openssl"
-  logo: "/assets/images/projects/libraries/openssl.png"
+  logo: "/src/assets/images/content/projectLogos/openssl.png"
 ---
 
 <p>OpenSSL</p>

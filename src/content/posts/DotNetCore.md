@@ -11,7 +11,7 @@ project:
   type: "C++, C#"
   ci_url: "https://dotnet.microsoft.com/download/dotnet/5.0"
   url: "https://dotnet.microsoft.com/download/dotnet/5.0"
-  logo: "/assets/images/projects/web/dotnet.png"
+  logo: "/src/assets/images/content/projectLogos/dotnet.png"
 ---
 
 <p>.Net Core</p>

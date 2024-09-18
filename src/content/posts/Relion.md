@@ -10,7 +10,7 @@ project:
   title: "Relion"
   type: "C++"
   url: "https://github.com/3dem/relion"
-  logo: "/assets/images/projects/hpc/relion.png"
+  logo: "/src/assets/images/content/projectLogos/relion.png"
   overview: "RELION (for REgularised LIkelihood OptimisatioN) is a stand-alone computer program for Maximum A Posteriori refinement of (multiple) 3D reconstructions or 2D class averages in cryo-electron microscopy. It is developed in the research group of Sjors Scheres at the MRC Laboratory of Molecular Biology."
 
 supported_releases:

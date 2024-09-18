@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "https://timjmiller.github.io/wham/"
   project_official_url: "https://github.com/timjmiller/wham"
-  logo: "/assets/images/projects/hpc/wham.png"
+  logo: "/src/assets/images/content/projectLogos/wham.png"
   overview: "The Woods Hole Assessment Model (WHAM) is a general state-space age-structured stock assessment framework designed to include environmental effects on population processes. The state-space framework is attractive because it can estimate observation and process error, as well as naturally propagate random effect parameters in stock projections."
 
 supported_releases:

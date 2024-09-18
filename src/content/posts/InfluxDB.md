@@ -12,7 +12,7 @@ project:
   ci_url: "https://www.influxdata.com/products/influxdb/"
   url: "InfluxDB"
   project_official_url: "https://www.influxdata.com/products/influxdb/"
-  logo: "/assets/images/projects/database/influxdb.png"
+  logo: "/src/assets/images/content/projectLogos/influxdb.png"
   overview: "InfluxDB contains everything you need in a time series data platform in a single binary."
 
 supported_releases:

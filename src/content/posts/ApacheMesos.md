@@ -12,7 +12,7 @@ project:
   ci_url: "https://ci-builds.apache.org/job/Mesos/job/Mesos-Buildbot-ARM/"
   url: "ApacheMesos"
   project_official_url: "https://mesos.apache.org/"
-  logo: "/assets/images/projects/cloud/mesos.svg"
+  logo: "/src/assets/images/content/projectLogos/mesos.svg"
   overview: "Apache Mesos abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively."
 
 supported_releases:

@@ -11,7 +11,7 @@ project:
   type: "C++"
   ci_url: "https://www.boost.org/"
   url: "https://www.boost.org/"
-  logo: "/assets/images/projects/libraries/boost.png"
+  logo: "/src/assets/images/content/projectLogos/boost.png"
 ---
 
 <p>Boost</p>

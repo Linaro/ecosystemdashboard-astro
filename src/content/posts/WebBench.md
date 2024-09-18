@@ -11,7 +11,7 @@ project:
   type: "C++"
   url: "https://github.com/gzc/WebBench"
   project_official_url: "https://github.com/gzc/WebBench"
-  logo: "/assets/images/projects/libraries/webbench.png"
+  logo: "/src/assets/images/content/projectLogos/webbench.png"
   overview: "Web Bench is very simple tool for benchmarking WWW or proxy servers."
 ---
 

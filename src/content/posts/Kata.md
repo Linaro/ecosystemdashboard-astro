@@ -12,7 +12,7 @@ project:
   ci_url: "http://jenkins.katacontainers.io/"
   url: "KataContainers"
   project_official_url: "https://katacontainers.io/"
-  logo: "/assets/images/projects/cloud/kata.png"
+  logo: "/src/assets/images/content/projectLogos/kata.png"
   overview: "Kata Containers is Apache 2 licensed software consisting of two main components: the Kata agent, and the Kata Containerd shim v2 runtime. It also packages a Linux kernel and versions of QEMU, Cloud Hypervisor and Firecracker hypervisors."
 
 supported_releases:

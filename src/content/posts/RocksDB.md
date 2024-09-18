@@ -12,7 +12,7 @@ project:
   ci_url: "https://travis-ci.org/github/facebook/rocksdb/pull_requests"
   url: "https://travis-ci.org/github/facebook/rocksdb/pull_requests"
   project_official_url: "https://rocksdb.org/"
-  logo: "/assets/images/projects/database/rocksdb.png"
+  logo: "/src/assets/images/content/projectLogos/rocksdb.png"
   overview: "RocksDB is an embeddable persistent key-value store for fast storage."
 
 supported_releases:

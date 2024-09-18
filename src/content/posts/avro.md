@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/apache/avro/actions"
   url: "https://github.com/apache/avro"
   project_official_url: "https://avro.apache.org/"
-  logo: "/src/assets/images/content/projectLogos/avro/avro_logo.png"
+  logo: "/src/assets/images/content/projectLogos/avro.png"
   overview: "Apache Avro is a data serialization system."
 
 supported_releases:

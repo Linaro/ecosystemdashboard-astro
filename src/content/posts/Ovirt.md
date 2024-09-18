@@ -11,7 +11,7 @@ project:
   type: "Java"
   url: "https://github.com/oVirt/ovirt-engine"
   project_official_url: "https://ovirt.org/"
-  logo: "/assets/images/projects/cloud/ovirt.png"
+  logo: "/src/assets/images/content/projectLogos/ovirt.png"
   overview: "oVirt is a free open-source virtualization solution for your entire enterprise."
 
 supported_releases:

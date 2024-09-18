@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/grpc/grpc/actions"
   url: "https://github.com/grpc/grpc"
   project_official_url: "https://grpc.io/"
-  logo: "/assets/images/projects/libraries/grpc/grpc_logo.png"
+  logo: "/src/assets/images/content/projectLogos/grpc.png"
   overview: "gRPC is a modern, open source, high-performance remote procedure call (RPC) framework that can run anywhere. gRPC enables client and server applications to communicate transparently, and simplifies the building of connected systems."
 
 supported_releases:
@@ -42,8 +42,6 @@ events:
     type: "Blog"
     url: "https://grpc.io/blog/grpconf-2023-announcement/"
     language: "English"
-
 ---
 
 <p>grpc</p>
-

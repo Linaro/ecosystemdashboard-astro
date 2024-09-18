@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "http://www.poissonboltzmann.org/"
   project_official_url: "https://github.com/Electrostatics/apbs"
-  logo: "/assets/images/projects/libraries/apbs.png"
+  logo: "/src/assets/images/content/projectLogos/apbs.png"
   overview: "Software for biomolecular electrostatics and solvation calculations"
 
 supported_releases:

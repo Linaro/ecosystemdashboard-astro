@@ -12,7 +12,7 @@ project:
   ci_url: "http://nginx.org/en/index.html#tested_os_and_platforms"
   url: "Nginx"
   project_official_url: "https://nginx.org/en/"
-  logo: "/assets/images/projects/web/nginx.png"
+  logo: "/src/assets/images/content/projectLogos/nginx.png"
   overview: "nginx [engine x] is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server, originally written by Igor Sysoev."
 
 supported_releases:

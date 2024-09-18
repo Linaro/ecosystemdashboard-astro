@@ -12,7 +12,7 @@ project:
   ci_url: "https://gerrit-ci.gerritforge.com/view/Gerrit/job/Gerrit-bazel-master/"
   url: "https://github.com/GerritCodeReview/gerrit"
   project_official_url: "https://www.gerritcodereview.com/"
-  logo: "/assets/images/projects/libraries/gerrit.png"
+  logo: "/src/assets/images/content/projectLogos/gerrit.png"
   overview: "Gerrit is a free, web-based team code collaboration tool. Software developers in a team can review each other's modifications on their source code using a Web browser and approve or reject those changes. It integrates closely with Git, a distributed version control system."
 
 supported_releases:

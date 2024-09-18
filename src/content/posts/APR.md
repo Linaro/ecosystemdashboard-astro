@@ -11,7 +11,7 @@ project:
   type: "C"
   ci_url: "http://apr.apache.org/"
   url: "http://apr.apache.org/"
-  logo: "/assets/images/projects/libraries/apr.png"
+  logo: "/src/assets/images/content/projectLogos/apr.png"
 ---
 
 <p>APR</p>

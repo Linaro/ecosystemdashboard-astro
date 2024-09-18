@@ -12,7 +12,7 @@ project:
   ci_url: ""
   url: "https://github.com/apache/oozie"
   project_official_url: "https://oozie.apache.org/"
-  logo: "/src/assets/images/content/projectLogos/oozie/oozie_logo.png"
+  logo: "/src/assets/images/content/projectLogos/oozie.png"
   overview: "Oozie is a workflow scheduler system to manage Apache Hadoop jobs."
 
 supported_releases:
@@ -25,7 +25,6 @@ supported_releases:
   - release:
     version: "5.1.0"
     url: "https://archive.apache.org/dist/oozie/5.1.0/oozie-5.1.0.tar.gz"
-
 ---
 
 <p>oozie</p>

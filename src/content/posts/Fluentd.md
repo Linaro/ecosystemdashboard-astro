@@ -11,7 +11,7 @@ project:
   type: "Ruby"
   ci_url: "https://github.com/fluent/fluentd/actions"
   url: "fluentd"
-  logo: "/assets/images/projects/cloud/fluentd.png"
+  logo: "/src/assets/images/content/projectLogos/fluentd.png"
   overview: "Fluentd collects events from various data sources and writes them to files, RDBMS, NoSQL, IaaS, SaaS, Hadoop and so on. Fluentd helps you unify your logging infrastructure."
 
 supported_releases:

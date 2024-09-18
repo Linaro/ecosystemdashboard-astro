@@ -11,7 +11,7 @@ project:
   type: "C++"
   ci_url: "http://www.hyperscan.io"
   url: "http://www.hyperscan.io"
-  logo: "/assets/images/projects/libraries/hyperscan.png"
+  logo: "/src/assets/images/content/projectLogos/hyperscan.png"
 ---
 
 <p>Hyperscan</p>

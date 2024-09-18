@@ -11,7 +11,7 @@ project:
   type: "C"
   ci_url: "https://www.sqlite.org/index.html"
   url: "SQLite"
-  logo: "/assets/images/projects/database/sqlite.png"
+  logo: "/src/assets/images/content/projectLogos/sqlite.png"
   project_official_url: "https://sqlite.org/index.html"
   overview: "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability,
   full-featured, SQL database engine."

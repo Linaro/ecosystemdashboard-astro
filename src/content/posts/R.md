@@ -11,7 +11,7 @@ project:
   type: "R"
   ci_url: "https://www.r-project.org/"
   url: "https://www.r-project.org/"
-  logo: "/assets/images/projects/libraries/r.png"
+  logo: "/src/assets/images/content/projectLogos/r.png"
 ---
 
 <p>R</p>

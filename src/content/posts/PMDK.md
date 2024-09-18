@@ -12,7 +12,7 @@ project:
   ci_url: "https://travis-ci.org/github/pmem/pmdk"
   url: "pmdk"
   project_official_url: "https://pmem.io/"
-  logo: "/assets/images/projects/storage/pmdk/PMDK.png"
+  logo: "/src/assets/images/content/projectLogos/PMDK.png"
   overview: "The Persistent Memory Development Kit (PMDK) is a collection of libraries and tools for System Administrators and Application Developers to simplify managing and accessing persistent memory devices. All PMDK related libraries are described in detail on pmem.io/pmdk."
 
 supported_releases:
@@ -71,7 +71,6 @@ events:
     type: "Online Session"
     url: "https://www.youtube.com/watch?v=8QAuN8CL5Zg"
     language: "English"
-
 ---
 
 <p>PMDK</p>

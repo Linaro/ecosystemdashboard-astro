@@ -12,7 +12,7 @@ project:
   ci_url: "http://www.ruby-lang.org/en/"
   url: "http://www.ruby-lang.org/en/"
   project_official_url: "https://www.ruby-lang.org/"
-  logo: "/assets/images/projects/libraries/ruby.png"
+  logo: "/src/assets/images/content/projectLogos/ruby.png"
   overview: "Ruby is an interpreted object-oriented programming language often used for web development. It also offers many scripting features to process plain text and serialized files, or manage system tasks. It is simple, straightforward, and extensible."
 supported_releases:
   - release:

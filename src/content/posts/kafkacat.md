@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "https://github.com/edenhill/kcat"
   project_official_url: "https://github.com/edenhill/kcat"
-  logo: "/assets/images/projects/libraries/kcat.png"
+  logo: "/src/assets/images/content/projectLogos/kcat.png"
   overview: "kcat is a generic non-JVM producer and consumer for Apache Kafka >=0.8, think of it as a netcat for Kafka.In producer mode kcat reads messages from stdin, delimited with a configurable delimiter (-D, defaults to newline), and produces them to the provided Kafka cluster (-b), topic (-t) and partition (-p).In consumer mode kcat reads messages from a topic and partition and prints them to stdout using the configured message delimiter."
 
 supported_releases:

@@ -12,7 +12,7 @@ project:
   ci_url: "https://gitlab.com/qemu-project/qemu/-/pipelines"
   url: "Qemu"
   project_official_url: "https://www.qemu.org/"
-  logo: "/assets/images/projects/cloud/qemu.png"
+  logo: "/src/assets/images/content/projectLogos/qemu.png"
   overview: "QEMU is a generic and open source machine emulator and virtualizer."
 
 supported_releases:

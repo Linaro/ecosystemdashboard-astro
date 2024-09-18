@@ -10,7 +10,7 @@ project:
   title: "Curve"
   type: "C++"
   url: "https://github.com/opencurve/curve"
-  logo: "/assets/images/projects/storage/curve.png"
+  logo: "/src/assets/images/content/projectLogos/curve.png"
 
 work_item:
 

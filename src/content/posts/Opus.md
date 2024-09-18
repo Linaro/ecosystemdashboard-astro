@@ -12,7 +12,7 @@ project:
   ci_url: "https://ci.appveyor.com/project/rillian/opus"
   url: "https://github.com/xiph/opus"
   project_official_url: "https://opus-codec.org/"
-  logo: "/assets/images/projects/libraries/opus/opus-logo.png"
+  logo: "/src/assets/images/content/projectLogos/opus.png"
   overview: "Opus is a totally open, royalty-free, highly versatile audio codec. Opus is unmatched for interactive speech and music transmission over the Internet, but is also intended for storage and streaming applications. It is standardized by the Internet Engineering Task Force (IETF) as [RFC 6716](https://tools.ietf.org/html/rfc6716) which incorporated technology from Skype's SILK codec and Xiph.Org's CELT codec."
 
 supported_releases:
@@ -56,7 +56,6 @@ work_items:
     title: "OggUVS: Uncompressed RGB and YUV video."
     url: "https://wiki.xiph.org/OggUVS"
     status: "Open"
-
 ---
 
 <p>Opus</p>

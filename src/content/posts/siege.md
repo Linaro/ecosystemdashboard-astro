@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "https://github.com/JoeDog/siege"
   project_official_url: "https://github.com/JoeDog/siege"
-  logo: "/assets/images/projects/libraries/siege.png"
+  logo: "/src/assets/images/content/projectLogos/siege.png"
   overview: "Siege is an http load tester and benchmarking utility"
 
 supported_releases:

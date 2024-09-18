@@ -11,7 +11,7 @@ project:
   type: "Lua"
   ci_url: "http://www.lua.org/"
   url: "http://www.lua.org/"
-  logo: "/assets/images/projects/libraries/lua.png"
+  logo: "/src/assets/images/content/projectLogos/lua.png"
 ---
 
 <p>Lua</p>

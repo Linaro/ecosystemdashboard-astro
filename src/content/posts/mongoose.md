@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/Automattic/mongoose/actions"
   url: "https://github.com/Automattic/mongoose"
   project_official_url: "https://mongoosejs.com/"
-  logo: "/assets/images/projects/web/mongoose/mongoose_logo.png"
+  logo: "/src/assets/images/content/projectLogos/mongoose.png"
   overview: "Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports Node.js and Deno (alpha)."
 
 supported_releases:
@@ -31,8 +31,6 @@ project_ci:
     title: "Mongoose Upstream CI"
     status: "https://github.com/Automattic/mongoose/workflows/Test/badge.svg"
     url: "https://github.com/Automattic/mongoose/actions"
-
 ---
 
 <p>Mongoose</p>
-

@@ -2,7 +2,6 @@
 import type { CollectionEntry } from "astro:content";
 import { Image, getImage } from "astro:assets";
 import BaseLayout from "./BaseLayout.astro";
-import logos from "@/assets/images/content/projectLogos/centos.png";
 
 type Props = {
   project: CollectionEntry<"posts">;
@@ -23,10 +22,14 @@ const {
 
 <BaseLayout title={title} description={overview}>
   <section class="mx-48 my-24">
-    <div class="flex flex-col text-center">
+    <div class="flex flex-col items-center gap-8">
       <h1 class="text-4xl mb-3">{title}</h1>
       <h1 class="text-xl my-3">{overview}</h1>
-      <Image src={logos} alt="logo" height={100} width={100} />
+      <div
+      class="rounded-full h-48 w-48 bg-white flex items-center justify-center"
+    >
+      <Image src={logo} alt="logo" height={100} width={100} />
+    </div>
       <a href={project_official_url} class="text-linaro-yellow">{project_official_url}</a>
       <div class="faded-line"></div>
     </div>

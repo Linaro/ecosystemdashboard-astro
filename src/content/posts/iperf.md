@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "http://software.es.net/iperf/"
   project_official_url: "https://github.com/esnet/iperf"
-  logo: "/assets/images/projects/libraries/iperf.png"
+  logo: "/src/assets/images/content/projectLogos/iperf.png"
   overview: "iperf is a tool for active measurements of the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, protocols, and buffers. For each test it reports the measured throughput / bitrate, loss, and other parameters."
 
 supported_releases:

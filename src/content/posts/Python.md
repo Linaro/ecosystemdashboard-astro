@@ -11,7 +11,7 @@ project:
   type: "Python"
   ci_url: "https://www.python.org/"
   url: "https://www.python.org/"
-  logo: "/assets/images/projects/libraries/python.png"
+  logo: "/src/assets/images/content/projectLogos/python.png"
 ---
 
 <p>Python</p>

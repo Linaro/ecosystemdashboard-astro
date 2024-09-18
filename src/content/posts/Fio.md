@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "https://fio.readthedocs.io/en/latest/fio_doc.html"
   project_official_url: "https://github.com/axboe/fio"
-  logo: "/assets/images/projects/libraries/fio.png"
+  logo: "/src/assets/images/content/projectLogos/fio.png"
   overview: "Fio spawns a number of threads or processes doing a particular type of I/O action as specified by the user. fio takes a number of global parameters, each inherited by the thread unless otherwise parameters given to them overriding that setting is given. The typical use of fio is to write a job file matching the I/O load one wants to simulate."
 
 supported_releases:

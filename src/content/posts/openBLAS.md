@@ -11,7 +11,7 @@ project:
   type: "Fortran"
   ci_url: "http://www.openblas.net/"
   url: "http://www.openblas.net/"
-  logo: "/assets/images/projects/libraries/openblas.png"
+  logo: "/src/assets/images/content/projectLogos/openblas.png"
 ---
 
 <p>openBLAS</p>

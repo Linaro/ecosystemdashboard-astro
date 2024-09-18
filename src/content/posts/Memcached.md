@@ -12,7 +12,7 @@ project:
   ci_url: "https://build.memcached.org/#/builders/6"
   url: "Memcached"
   project_official_url: "https://memcached.org/"
-  logo: "/assets/images/projects/web/memcached.png"
+  logo: "/src/assets/images/content/projectLogos/memcached.png"
   overview: "Memcached is an in-memory key-value store for small chunks of arbitrary data (strings, objects) from results of database calls, API calls, or page rendering."
 
 supported_releases:

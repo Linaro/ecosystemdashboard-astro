@@ -11,7 +11,7 @@ project:
   type: "C"
   ci_url: "https://www.dpdk.org/"
   url: "https://www.dpdk.org/"
-  logo: "/assets/images/projects/storage/dpdk.png"
+  logo: "/src/assets/images/content/projectLogos/dpdk.png"
   overview: "DPDK is the Data Plane Development Kit that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU architectures. Designed to run on x86, POWER and ARM processors, it runs mostly in Linux userland, with a FreeBSD port available for a subset of DPDK features. DPDK is licensed under the Open Source BSD License."
 
 supported_releases:

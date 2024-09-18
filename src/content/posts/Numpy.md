@@ -11,7 +11,7 @@ project:
   type: "Python"
   url: "NumPy"
   project_official_url: "https://numpy.org"
-  logo: "/assets/images/projects/libraries/numpy.png"
+  logo: "/src/assets/images/content/projectLogos/numpy.png"
   overview: "NumPy is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more."
 
 supported_releases:

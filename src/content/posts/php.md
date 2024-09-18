@@ -11,7 +11,7 @@ project:
   type: "Php"
   ci_url: "https://www.php.net/"
   url: "https://www.php.net/"
-  logo: "/assets/images/projects/libraries/php.png"
+  logo: "/src/assets/images/content/projectLogos/php.png"
   project_official_url: "https://www.php.net/"
   overview: "PHP is a popular general-purpose scripting language that is especially suited to web development.
   Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world."

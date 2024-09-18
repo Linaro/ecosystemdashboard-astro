@@ -11,7 +11,7 @@ project:
   type: "JavaScript"
   ci_url: "https://reactjs.org/"
   url: "https://reactjs.org/"
-  logo: "/assets/images/projects/libraries/react.png"
+  logo: "/src/assets/images/content/projectLogos/react.png"
 ---
 
 <p>React</p>

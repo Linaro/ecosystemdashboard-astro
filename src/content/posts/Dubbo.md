@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/apache/dubbo/actionst"
   url: "ApacheDubbo"
   project_official_url: "https://dubbo.apache.org/en"
-  logo: "/assets/images/projects/web/dubbo.png"
+  logo: "/src/assets/images/content/projectLogos/dubbo.png"
   overview: "Dubbo |ˈdʌbəʊ| offers six key functionalities, which include transparent interface based RPC, intelligent load balancing, automatic service registration and discovery, high extensibility, runtime traffic routing, and visualized service governance."
 
 supported_releases:

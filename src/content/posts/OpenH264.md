@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/cisco/openh264/actions"
   url: "https://github.com/cisco/openh264"
   project_official_url: "http://www.openh264.org/index.html"
-  logo: "/assets/images/projects/libraries/openh264/openh264_logo.png"
+  logo: "/src/assets/images/content/projectLogos/openh264.png"
   overview: "OpenH264 is a codec library which supports H.264 encoding and decoding. It is suitable for use in real time applications such as WebRTC. See http://www.openh264.org/ for more details."
 
 supported_releases:

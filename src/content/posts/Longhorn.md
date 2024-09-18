@@ -12,7 +12,7 @@ project:
   ci_url: "https://drone-publish.longhorn.io/longhorn/longhorn-engine"
   url: "Longhorn"
   project_official_url: "https://longhorn.io"
-  logo: "/assets/images/projects/storage/longhorn.svg"
+  logo: "/src/assets/images/content/projectLogos/longhorn.svg"
   overview: "Longhorn is a lightweight, reliable, and powerful distributed block storage system for Kubernetes."
 
 supported_releases:

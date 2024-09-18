@@ -11,7 +11,7 @@ project:
   type: "C++"
   ci_url: "https://github.com/google/snappy/"
   url: "https://github.com/google/snappy/"
-  logo: "/assets/images/projects/libraries/snappy.png"
+  logo: "/src/assets/images/content/projectLogos/snappy.png"
 ---
 
 <p>Snappy</p>

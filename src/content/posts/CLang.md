@@ -11,7 +11,7 @@ project:
   type: "C"
   ci_url: "https://clang.llvm.org/"
   url: "https://clang.llvm.org/"
-  logo: "/assets/images/projects/libraries/clang.png"
+  logo: "/src/assets/images/content/projectLogos/clang.png"
 ---
 
 <p>Clang</p>

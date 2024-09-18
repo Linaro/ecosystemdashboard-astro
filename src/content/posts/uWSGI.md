@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/unbit/uwsgi/actions"
   url: "uWSGI"
   project_official_url: "https://github.com/unbit/uwsgi"
-  logo: "/assets/images/projects/web/uwsgi.png"
+  logo: "/src/assets/images/content/projectLogos/uwsgi.png"
   overview: "The uWSGI project aims at developing a full stack for building hosting services. "
 
 supported_releases:

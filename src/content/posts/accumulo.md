@@ -12,7 +12,7 @@ project:
   ci_url: ""
   url: "https://github.com/apache/accumulo"
   project_official_url: "https://accumulo.apache.org/"
-  logo: "/src/assets/images/content/projectLogos/accumulo/accumulo_logo.png"
+  logo: "/src/assets/images/content/projectLogos/accumulo.png"
   overview: "Apache Accumulo is a sorted, distributed key/value store that provides robust, scalable data storage and retrieval. With Apache Accumulo, users can store and manage large data sets across a cluster. Accumulo uses Apache Hadoop's HDFS to store its data and Apache Zookeeper for consensus."
 
 supported_releases:

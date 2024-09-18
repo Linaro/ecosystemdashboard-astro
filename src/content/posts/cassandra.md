@@ -12,7 +12,7 @@ project:
   ci_url: ""
   url: "https://github.com/apache/cassandra"
   project_official_url: "https://cassandra.apache.org"
-  logo: "/assets/images/projects/database/cassandra/cassandra_logo.png"
+  logo: "/src/assets/images/content/projectLogos/cassandra.png"
   overview: "Apache Cassandra is an open source NoSQL distributed database trusted by thousands of companies for scalability and high availability without compromising performance. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data."
 
 supported_releases:
@@ -28,7 +28,6 @@ supported_releases:
   - release:
     version: "3.0.29"
     url: "https://dlcdn.apache.org/cassandra/3.0.29/apache-cassandra-3.0.29-bin.tar.gz"
-
 
 events:
   - event:
@@ -46,7 +45,6 @@ events:
     type: "News"
     url: "https://cassandra.apache.org/_/events/20221222-cday-china.html"
     language: "English"
-
 ---
 
 <p>cassandra</p>

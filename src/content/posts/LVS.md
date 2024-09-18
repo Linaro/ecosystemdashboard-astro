@@ -11,7 +11,7 @@ project:
   type: "C"
   ci_url: "http://linuxvirtualserver.org/"
   url: "http://linuxvirtualserver.org/"
-  logo: "/assets/images/projects/web/lvs.png"
+  logo: "/src/assets/images/content/projectLogos/lvs.png"
 ---
 
 <p>LVS</p>

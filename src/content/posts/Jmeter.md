@@ -11,7 +11,7 @@ project:
   type: "Java"
   url: "https://jmeter.apache.org/"
   project_official_url: "https://github.com/apache/jmeter"
-  logo: "/assets/images/projects/libraries/jmeter.png"
+  logo: "/src/assets/images/content/projectLogos/jmeter.png"
   overview: "The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.It can be used to simulate a heavy load on a server, group of servers, network or object to test its strength or to analyze overall performance under different load types."
 
 supported_releases:

@@ -12,7 +12,7 @@ project:
   ci_url: "https://www.postgresql.org/"
   url: "PostgreSQL"
   project_official_url: "https://www.postgresql.org/"
-  logo: "/assets/images/projects/database/postgresql.jpg"
+  logo: "/src/assets/images/content/projectLogos/postgresql.jpg"
   overview: "PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance."
 
 supported_releases:

@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/git/git/actions"
   url: "https://github.com/git/git"
   project_official_url: "https://git-scm.com/"
-  logo: "/assets/images/projects/libraries/git.png"
+  logo: "/src/assets/images/content/projectLogos/git.png"
   overview: "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows."
 
 supported_releases:

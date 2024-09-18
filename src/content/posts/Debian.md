@@ -12,7 +12,7 @@ project:
   ci_url: "https://ci.debian.net/status/"
   url: "https://www.debian.org/"
   project_official_url: "https://www.debian.org/"
-  logo: "/assets/images/projects/os/debian.png"
+  logo: "/src/assets/images/content/projectLogos/debian.png"
   overview: "Debian is a free operating system, developed and maintained by the Debian project. A free Linux distribution with thousands of applications to meet our users' needs."
 
 supported_releases:

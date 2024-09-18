@@ -12,7 +12,7 @@ project:
   ci_url: "https://gitlab.com/libvirt/libvirt/-/pipelines"
   url: "Libvirt"
   project_official_url: "https://libvirt.org/"
-  logo: "/assets/images/projects/cloud/libvirt.png"
+  logo: "/src/assets/images/content/projectLogos/libvirt.png"
   overview: "libvirt is an open-source API, daemon and management tool for managing platform virtualization.[3] It can be used to manage KVM, Xen, VMware ESXi, QEMU and other virtualization technologies. These APIs are widely used in the orchestration layer of hypervisors in the development of a cloud-based solution."
 
 project_ci:

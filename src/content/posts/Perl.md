@@ -11,7 +11,7 @@ project:
   type: "Perl"
   ci_url: "https://www.perl.org/"
   url: "https://www.perl.org/"
-  logo: "/assets/images/projects/libraries/perl.png"
+  logo: "/src/assets/images/content/projectLogos/perl.png"
 ---
 
 <p>Perl</p>

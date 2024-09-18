@@ -11,7 +11,7 @@ project:
   type: "C++"
   url: "https://github.com/popgenmethods/smcpp"
   project_official_url: "https://github.com/popgenmethods/smcpp"
-  logo: "/assets/images/projects/hpc/smcpp.png"
+  logo: "/src/assets/images/content/projectLogos/smcpp.png"
   overview: "SMC++ infers population history from whole-genome sequence data."
 
 supported_releases:

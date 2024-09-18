@@ -11,7 +11,7 @@ project:
   type: "Fortran"
   url: "http://openmopac.net/"
   project_official_url: "https://github.com/openmopac/mopac"
-  logo: "/assets/images/projects/libraries/mopac.png"
+  logo: "/src/assets/images/content/projectLogos/mopac.png"
   overview: "This is the official repository of the modern open-source version of MOPAC, which is now released under an LGPL license. This is a direct continuation of the commercial development and distribution of MOPAC, which ended at MOPAC 2016. Commercial versions of MOPAC are no longer supported, and all MOPAC users are encouraged to switch to the most recent open-source version."
 
 supported_releases:

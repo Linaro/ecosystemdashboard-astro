@@ -11,7 +11,7 @@ project:
   type: "C++"
   url: "https://github.com/rcedgar/muscle"
   project_official_url: "https://github.com/rcedgar/muscle"
-  logo: "/assets/images/projects/hpc/muscle.png"
+  logo: "/src/assets/images/content/projectLogos/muscle.png"
   overview: "Multiple sequence alignment with top benchmark scores scalable to thousands of sequences. Generates replicate alignments, enabling assessment of downstream analyses such as trees and predicted structures."
 
 supported_releases:

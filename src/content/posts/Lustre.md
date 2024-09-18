@@ -12,7 +12,7 @@ project:
   ci_url: "https://testing.whamcloud.com/test_sessions"
   url: "Lustre"
   project_official_url: "https://www.lustre.org"
-  logo: "/assets/images/projects/storage/lustre.png"
+  logo: "/src/assets/images/content/projectLogos/lustre.png"
   overview: "The Lustre® file system is an open-source, parallel file system that supports many requirements of leadership class HPC simulation environments. The Lustre file system provides a POSIX compliant file system interface, can scale to thousands of clients, petabytes of storage and hundreds of gigabytes per second of I/O bandwidth."
 
 supported_releases:

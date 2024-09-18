@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/rook/rook/actions/workflows/daily-nightly-jobs.yml"
   url: "Rook"
   project_official_url: "https://rook.github.io"
-  logo: "/assets/images/projects/storage/rook.svg"
+  logo: "/src/assets/images/content/projectLogos/rook.svg"
   overview: "Rook is an open source cloud-native storage orchestrator for Kubernetes, providing the platform, framework, and support for a diverse set of storage solutions(Ceph, Cassandra and NFS) to natively integrate with cloud-native environments. Rook turns distributed storage systems into self-managing, self-scaling, self-healing storage services. It automates the tasks of a storage administrator: deployment, bootstrapping, configuration, provisioning, scaling, upgrading, migration, disaster recovery, monitoring, and resource management."
 
 supported_releases:

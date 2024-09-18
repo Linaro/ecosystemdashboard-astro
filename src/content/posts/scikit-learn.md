@@ -11,7 +11,7 @@ project:
   type: "Python"
   ci_url: "https://scikit-learn.org/stable/"
   url: "https://scikit-learn.org/stable/"
-  logo: "/assets/images/projects/libraries/scikit.png"
+  logo: "/src/assets/images/content/projectLogos/scikit.png"
 ---
 
 <p>scikit-learn</p>

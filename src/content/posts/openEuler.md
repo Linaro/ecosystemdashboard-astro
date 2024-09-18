@@ -12,7 +12,7 @@ project:
   ci_url: "https://openeulerjenkins.osinfra.cn/job/multiarch/job/openeuler"
   url: "https://www.openeuler.org/"
   project_official_url: "https://www.openeuler.org/"
-  logo: "/assets/images/projects/os/openeuler.png"
+  logo: "/src/assets/images/content/projectLogos/openeuler.png"
   overview: "The openEuler kernel is the core of the openEuler OS, serving as the foundation of system performance and stability and a bridge between processors, devices, and services."
 
 supported_releases:

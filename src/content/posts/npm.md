@@ -11,7 +11,7 @@ project:
   type: "JavaScript"
   ci_url: "https://www.npmjs.com/"
   url: "https://www.npmjs.com/"
-  logo: "/assets/images/projects/libraries/npm.png"
+  logo: "/src/assets/images/content/projectLogos/npm.png"
 ---
 
 <p>NPM</p>

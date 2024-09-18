@@ -11,7 +11,7 @@ project:
   type: "Fortran"
   url: "https://github.com/nwchemgit/nwchem"
   project_official_url: "https://www.nwchem-sw.org/"
-  logo: "/assets/images/projects/hpc/nwchem.png"
+  logo: "/src/assets/images/content/projectLogos/nwchem.png"
   overview: "NWChem is actively developed by a consortium of developers and maintained by the Environmental Molecular Sciences Laboratory (EMSL), a US DOE Office of Science User Facility located at the Pacific Northwest National Laboratory (PNNL) in Washington State"
 
 supported_releases:

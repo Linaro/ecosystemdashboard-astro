@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/google/leveldb"
   url: "https://github.com/google/leveldb"
   project_official_url: "https://github.com/google/leveldb"
-  logo: "/assets/images/projects/database/leveldb.png"
+  logo: "/src/assets/images/content/projectLogos/leveldb.png"
   overview: "LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values."
 
 supported_releases:

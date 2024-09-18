@@ -12,7 +12,7 @@ project:
   ci_url: "https://build.memcached.org/#/builders/6"
   url: "Mesa"
   project_official_url: "https://www.mesa3d.org"
-  logo: "/assets/images/projects/libraries/mesa.png"
+  logo: "/src/assets/images/content/projectLogos/mesa.png"
   overview: "Mesa, also called Mesa3D and The Mesa 3D Graphics Library, is an open source implementation of OpenGL, Vulkan, and other graphics API specifications. Mesa translates these specifications to vendor-specific graphics hardware drivers."
 
 supported_releases:

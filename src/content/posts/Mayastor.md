@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/openebs/mayastor/actions"
   url: "Mayastor"
   project_official_url: "https://mayastor.gitbook.io/"
-  logo: "/assets/images/projects/storage/mayastor.svg"
+  logo: "/src/assets/images/content/projectLogos/mayastor.svg"
   overview: "Mayastor is currently under development as a sub project of the Open Source CNCF project OpenEBS. OpenEBS is a Container Attached Storage or CAS solution which extends Kubernetes with a declarative data plane, providing flexible persistent storage for stateful applications."
 
 supported_releases:

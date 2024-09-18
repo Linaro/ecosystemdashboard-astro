@@ -11,7 +11,7 @@ project:
   type: "Python"
   url: "https://falcon.readthedocs.io/en/stable/"
   project_official_url: "https://github.com/falconry/falcon"
-  logo: "/assets/images/projects/hpc/falcon.jpg"
+  logo: "/src/assets/images/content/projectLogos/falcon.jpg"
   overview: "Falcon is a minimalist ASGI/WSGI framework for building mission-critical REST APIs and microservices, with a focus on reliability, correctness, and performance at scale."
 
 supported_releases:

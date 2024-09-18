@@ -11,7 +11,7 @@ project:
   type: "Scala"
   url: "https://github.com/broadinstitute/pilon"
   project_official_url: "https://github.com/broadinstitute/pilon"
-  logo: "/assets/images/projects/hpc/pilon.png"
+  logo: "/src/assets/images/content/projectLogos/pilon.png"
   overview: "Pilon is an automated genome assembly improvement and variant detection tool"
 
 supported_releases:

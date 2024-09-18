@@ -11,7 +11,7 @@ project:
   type: "Python"
   url: "https://github.com/NVIDIA/NeMo"
   project_official_url: "https://nvidia.github.io/NeMo/"
-  logo: "/assets/images/projects/hpc/nemo.png"
+  logo: "/src/assets/images/content/projectLogos/nemo.png"
   overview: "NVIDIA NeMo is a conversational AI toolkit built for researchers working on automatic speech recognition (ASR), text-to-speech synthesis (TTS), large language models (LLMs), and natural language processing (NLP). The primary objective of NeMo is to help researchers from industry and academia to reuse prior work (code and pretrained models) and make it easier to create new conversational AI models."
 
 supported_releases:

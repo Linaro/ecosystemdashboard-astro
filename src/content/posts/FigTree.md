@@ -11,7 +11,7 @@ project:
   type: "Java"
   url: "https://github.com/rambaut/figtree"
   project_official_url: "https://github.com/rambaut/figtree"
-  logo: "/assets/images/projects/hpc/figtree.png"
+  logo: "/src/assets/images/content/projectLogos/figtree.png"
   overview: "FigTree is designed as a graphical viewer of phylogenetic trees and as a program for producing publication-ready figures. As with most of my programs, it was written for my own needs so may not be as polished and feature-complete as a commercial program. In particular it is designed to display summarized and annotated trees produced by BEAST."
 
 supported_releases:

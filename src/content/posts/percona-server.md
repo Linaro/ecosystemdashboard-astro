@@ -12,7 +12,7 @@ project:
   ci_url: ""
   url: "https://github.com/percona/percona-server"
   project_official_url: "https://docs.percona.com/percona-server/8.0/index.html"
-  logo: "/assets/images/projects/database/percona_server/percona_server_logo.jpg"
+  logo: "/src/assets/images/content/projectLogos/percona_server.jpg"
   overview: "Percona Server for MySQL is a free, fully compatible, enhanced, and open source drop-in replacement for any MySQL database. It provides superior performance, scalability, and instrumentation."
 
 supported_releases:
@@ -22,7 +22,6 @@ supported_releases:
   - release:
     version: "5.7.38-41"
     url: "https://downloads.percona.com/downloads/Percona-Server-5.7/Percona-Server-5.7.38-41/binary/debian/buster/x86_64/Percona-Server-5.7.38-41-rda46e5474f9-buster-x86_64-bundle.tar"
-
 
 events:
   - event:
@@ -40,7 +39,6 @@ events:
     type: "News"
     url: "https://www.theregister.com/2023/10/10/microsoft_to_keep_apache_cassandra/"
     language: "English"
-
 ---
 
 <p>percona-server</p>

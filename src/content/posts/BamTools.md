@@ -11,7 +11,7 @@ project:
   type: "C++"
   url: "https://github.com/pezmaster31/bamtools"
   project_official_url: "https://github.com/pezmaster31/bamtools"
-  logo: "/assets/images/projects/hpc/bamtools.png"
+  logo: "/src/assets/images/content/projectLogos/bamtools.png"
   overview: "BamTools provides both a programmer's API and an end-user's toolkit for handling
 BAM files."
 
