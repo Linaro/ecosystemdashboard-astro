@@ -55,12 +55,13 @@ const NavSearch = () => {
       mutate(null);
       return;
     }
-
     setSearch({
       ...search(),
       query: e.target.value ?? null,
     });
   };
+
+  console.log(results)
 
   return (
     <form onSubmit={onSubmit}>

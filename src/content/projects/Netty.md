@@ -9,13 +9,6 @@ meta:
 project:
   title: "Netty"
   type: "Java"
-  ci_url: "https://netty.io/index.html"
-  url: "https://netty.io/index.html"
-  logo: "/src/assets/images/content/projectLogos/netty.png"
-
-project:
-  title: "Netty"
-  type: "Java"
   ci_url: "https://bitbucket.org/multicoreware/x265_git/"
   url: "Netty"
   project_official_url: "https://netty.io/index.html"
@@ -32,7 +25,6 @@ project_ci:
     title: "Netty Upstream CI"
     status: "/assets/images/projects/common/CI_status.png"
     url: "https://github.com/netty/netty/actions"
-
 ---
 
 <p>Netty</p>

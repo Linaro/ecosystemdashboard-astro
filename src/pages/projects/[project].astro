@@ -2,7 +2,7 @@
 import ProjectLayout from "@/layouts/ProjectLayout.astro";
 import { getCollection, type CollectionEntry, getEntry } from "astro:content";
 export async function getStaticPaths() {
-  const posts = await getCollection("posts");
+  const posts = await getCollection("projects");
   return posts.map((post) => {
     return {
       params: {
@@ -14,11 +14,12 @@ export async function getStaticPaths() {
     };
   });
 }
-type Props = { post: CollectionEntry<"posts"> };
+type Props = { post: CollectionEntry<"projects"> };
 const { project } = Astro.params;
 let data;
 if (import.meta.env.SSR) {
-  data = await getEntry("posts", project);
+  data = await getEntry("projects", project);
+  console.log(data);
 } else {
   data = Astro.props.post;
 }
