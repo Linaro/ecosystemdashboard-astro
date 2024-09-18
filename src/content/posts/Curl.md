@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "curl"
   project_official_url: "https://curl.se"
-  logo: "/assets/images/projects/middleware/curl.svg"
+  logo: "/src/assets/images/content/projectLogos/curl.svg"
   overview: "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features."
 
 supported_releases:

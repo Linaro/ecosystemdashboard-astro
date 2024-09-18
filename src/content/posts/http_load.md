@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "http_load"
   project_official_url: "http://www.acme.com/software/http_load/"
-  logo: "/assets/images/projects/middleware/http_load.png"
+  logo: "/src/assets/images/content/projectLogos/http_load.png"
   overview: "http_load runs multiple http fetches in parallel, to test the throughput of a web server. However unlike most such test clients, it runs in a single process, so it doesn't bog down the client machine. It can be configured to do https fetches as well."
 
 ---

@@ -11,7 +11,7 @@ project:
   type: "Java"
   ci_url: "https://www.elastic.co/downloads/elasticsearch"
   url: "ElasticSearch"
-  logo: "/assets/images/projects/bigdata/elasticsearch.png"
+  logo: "/src/assets/images/content/projectLogos/elasticsearch.png"
   project_official_url: "http://elastic.co/downloads/elasticsearch"
   overview: "Elasticsearch is a distributed, RESTful search and analytics engine capable of addressing a growing number of use cases. As the heart of the Elastic Stack, it centrally stores your data for lightning fast search, fine‑tuned relevancy, and powerful analytics that scale with ease."
 

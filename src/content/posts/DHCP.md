@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "DHCP"
   project_official_url: "https://www.isc.org/dhcp/"
-  logo: "/assets/images/projects/middleware/dhcp.png"
+  logo: "/src/assets/images/content/projectLogos/dhcp.png"
   overview: "The Dynamic Host Configuration Protocol (DHCP) is a network protocol used to assign IP addresses and provide configuration information to devices such as servers, desktops, or mobile devices, so they can communicate on a network using the Internet Protocol (IP). ISC DHCP is a collection of software that implements all aspects of the DHCP (Dynamic Host Configuration Protocol) suite."
 
 supported_releases:

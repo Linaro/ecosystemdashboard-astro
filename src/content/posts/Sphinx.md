@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/sphinx-doc/sphinx/actions/workflows/main.yml"
   url: "Sphinx"
   project_official_url: "http://www.sphinx-doc.org/en/stable/"
-  logo: "/assets/images/projects/middleware/sphinx.png"
+  logo: "/src/assets/images/content/projectLogos/sphinx.png"
   overview: "Sphinx is a documentation generator written and used by the Python community. It is written in Python, and also used in other environments. Sphinx converts reStructuredText files into HTML websites and other formats including PDF, EPub, Texinfo and man. Sphinx provides the ability to apply themes to HTML and HTML-based formats. Sphinx has several built-in themes, including alabaster, classic, sphinxdoc, and scrolls."
 
 supported_releases:

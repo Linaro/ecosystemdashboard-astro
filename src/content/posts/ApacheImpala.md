@@ -11,7 +11,7 @@ project:
   type: "Java"
   ci_url: "http://status.openlabtesting.org/project/github.com/apache/impala"
   url: "ApacheImpala"
-  logo: "/assets/images/projects/bigdata/impala.png"
+  logo: "/src/assets/images/content/projectLogos/impala.png"
   project_official_url: "https://impala.apache.org/"
   overview: "Apache Impala is the open source, native analytic database for Apache Hadoop."
 

@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/pytorch/pytorch/actions"
   url: "PyTorch"
   project_official_url: "https://pytorch.org/"
-  logo: "/assets/images/projects/ai/pytorch.png"
+  logo: "/src/assets/images/content/projectLogos/pytorch.png"
   overview: "An open source machine learning framework that accelerates the path from research prototyping to production deployment."
 
 supported_releases:

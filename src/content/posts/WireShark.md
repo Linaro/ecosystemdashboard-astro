@@ -11,7 +11,7 @@ project:
   type: "Application"
   ci_url: "https://www.wireshark.org"
   url: "https://www.wireshark.org"
-  logo: "/assets/images/projects/middleware/wireshark.png"
+  logo: "/src/assets/images/content/projectLogos/wireshark.png"
 ---
 
 <p>WireShark</p>

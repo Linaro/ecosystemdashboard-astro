@@ -10,7 +10,7 @@ project:
   title: "Apache Kafka"
   type: "Scala"
   ci_url: "https://ci-builds.apache.org/blue/organizations/jenkins/Kafka%2Fkafka-pr/activity/"
-  logo: "/assets/images/projects/bigdata/kafka.png"
+  logo: "/src/assets/images/content/projectLogos/kafka.png"
   url: "ApacheDrill"
   project_official_url: "http://kafka.apache.org/"
   overview: "Apache Kafka is an open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications."

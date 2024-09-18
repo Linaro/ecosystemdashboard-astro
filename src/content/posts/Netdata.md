@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "Netdata"
   project_official_url: "https://www.netdata.cloud"
-  logo: "/assets/images/projects/middleware/netdata.svg"
+  logo: "/src/assets/images/content/projectLogos/netdata.svg"
   overview: "Netdata collects metrics per second and presents them in beautiful low-latency dashboards. It is designed to run on all of your physical and virtual servers, cloud deployments, Kubernetes clusters, and edge/IoT devices, to monitor your systems, containers, and applications."
 
 supported_releases:

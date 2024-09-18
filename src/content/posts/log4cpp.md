@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "log4cpp"
   project_official_url: "https://log4cpp.sourceforge.net"
-  logo: "/assets/images/projects/middleware/log4cpp.png"
+  logo: "/src/assets/images/content/projectLogos/log4cpp.png"
   overview: "Log4cpp is library of C++ classes for flexible logging to files, syslog, IDSA and other destinations. It is modeled after the Log4j Java library, staying as close to their API as is reasonable."
 
 supported_releases:

@@ -10,7 +10,7 @@ project:
   title: "Apache Knox"
   type: "Java"
   ci_url: "https://travis-ci.com/github/apache/knox"
-  logo: "/assets/images/projects/bigdata/knox.png"
+  logo: "/src/assets/images/content/projectLogos/knox.png"
   url: "ApacheKnox"
   project_official_url: "https://knox.apache.org/"
   overview: "The Apache Knox™ Gateway is an Application Gateway for interacting with the REST APIs and UIs

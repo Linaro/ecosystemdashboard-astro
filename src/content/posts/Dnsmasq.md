@@ -11,7 +11,7 @@ project:
   type: "C"
   ci_url: "https://thekelleys.org.uk/dnsmasq/"
   url: "https://thekelleys.org.uk/dnsmasq/"
-  logo: "/assets/images/projects/middleware/dnsmasq.png"
+  logo: "/src/assets/images/content/projectLogos/dnsmasq.png"
 ---
 
 <p>Dnsmasq</p>
