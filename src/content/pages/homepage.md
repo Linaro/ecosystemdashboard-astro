@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Flow.astro
-slug: ""
+slug: "/"
 title: Linaro Ecosystem Dashboard
 description: >
   The Linaro Ecosystem Dashboard has been created to provide a centralized information hub for Arm developers across the world.

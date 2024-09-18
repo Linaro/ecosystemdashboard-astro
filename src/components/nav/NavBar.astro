@@ -3,6 +3,7 @@ import Dropdown from "./Dropdown.astro";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 import { getEntry } from "astro:content";
 import CloudinaryImg from "../cloudinary/CloudinaryImg.astro";
+import SearchModal from "../search/NavSearch/SearchModal.astro";
 
 const navData = await getEntry("data", "nav");
 ---
@@ -71,9 +72,9 @@ const navData = await getEntry("data", "nav");
               <div class="linaro-gradient-button-small">Contact us</div>
             </a>
           </li>
-          <!-- <li class="grow mt-4 lg:mt-0">
+          <li class="grow mt-4 lg:mt-0">
             <SearchModal id="nav-search" />
-          </li> -->
+          </li>
         </ul>
       </nav>
     </div>

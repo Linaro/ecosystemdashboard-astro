@@ -2,9 +2,10 @@ import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import solidJs from "@astrojs/solid-js";
-// import pagefind from "integrations/pagefind";
+import pagefind from "./integrations/pagefind";
 import { loadEnv } from "vite";
 import icon from "astro-icon";
+import mdx from "@astrojs/mdx";
 
 const { IS_PUBLIC, PRE_BUILD, CUSTOM_DOMAIN } = loadEnv(
   process.env.NODE_ENV,
@@ -26,13 +27,31 @@ export default defineConfig({
             applyBaseStyles: false,
           }),
           sitemap(),
-          // pagefind({
-          //   is_pre_build: is_pre_build,
-          //   is_public: is_public,
-          // }),
+          pagefind({
+            is_pre_build: is_pre_build,
+            is_public: is_public,
+          }),
+          mdx(),
         ],
       }
-    : {}),
+    : {
+        output: PRE_BUILD ? "hybrid" : "server",
+        integrations: [
+          sitemap(),
+          pagefind({
+            is_pre_build: is_pre_build,
+            is_public: is_public,
+          }),
+          tailwind({
+            applyBaseStyles: false,
+          }),
+          solidJs(),
+          icon({
+            iconDir: "src/assets/icons",
+          }),
+          mdx(),
+        ],
+      }),
   site: `https://${CUSTOM_DOMAIN}`,
   cacheDir: "./cache",
   compressHTML: true,
@@ -42,19 +61,19 @@ export default defineConfig({
         protocol: "https",
       },
     ],
-    // service: {
-    //   entrypoint: "astro/assets/services/sharp",
-    //   config: {
-    //     limitInputPixels: false,
-    //   },
-    // },
+    service: {
+      entrypoint: "astro/assets/services/sharp",
+      config: {
+        limitInputPixels: false,
+      },
+    },
   },
-  // build: {
-  //   rollupOptions: {
-  //     external: ["/pagefind/pagefind.js"],
-  //   },
-  //   redirects: true,
-  // },
+  build: {
+    rollupOptions: {
+      external: ["/pagefind/pagefind.js"],
+    },
+    redirects: true,
+  },
   vite: {
     optimizeDeps: { exclude: ["auth:config"] },
   },

@@ -14,11 +14,11 @@ const {
       project: { title, overview, logo, url, project_official_url },
       supported_releases,
       events,
+      user_stories
     },
   },
 } = Astro.props;
 
-console.log('layout', Astro.props.project)
 ---
 
 <BaseLayout title={title} description={overview}>
@@ -41,6 +41,17 @@ console.log('layout', Astro.props.project)
             <dd class="text-linaro-yellow my-3">
               
               <a href={item.url}>{item.version}</a>
+            </dd>
+            
+          ))
+        }
+        <hr />
+        <dt class="my-3">User Stories</dt>
+        {user_stories &&
+          user_stories.map((item: any) => (
+            <hr />
+            <dd class="text-linaro-yellow my-3">
+              <a href={item.url}>{item.title}</a>
             </dd>
             
           ))

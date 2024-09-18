@@ -1,7 +1,9 @@
 ---
 import type { Code, Debug } from "astro:components";
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
 import { getCollection } from "astro:content";
-// import "../styles/global.scss";
+
 export async function getStaticPaths() {
   const pages = await getCollection("pages");
   return pages
@@ -18,8 +20,21 @@ export async function getStaticPaths() {
     });
 }
 
-const { page } = Astro.props;
-const { Content } = await page.render();
+type Props = { page: CollectionEntry<"pages"> };
+const { slug } = Astro.params;
+let page;
+
+if (import.meta.env.SSR) {
+  if (!slug) {
+    page = await getEntry("pages", "/");
+  } else {
+    page = await getEntry("pages", slug);
+  }
+} else {
+  page = Astro.props.page;
+}
+
+const { Content } = page ? await page.render() : { Content: "Page not found" };
 ---
 
 <Content />
