@@ -1,5 +1,4 @@
 ---
-import type { Code, Debug } from "astro:components";
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
 import { getCollection } from "astro:content";
@@ -19,11 +18,9 @@ export async function getStaticPaths() {
       };
     });
 }
-
 type Props = { page: CollectionEntry<"pages"> };
 const { slug } = Astro.params;
 let page;
-
 if (import.meta.env.SSR) {
   if (!slug) {
     page = await getEntry("pages", "/");

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: ../../layouts/ProjectLayout.astro
 permalink: /:title/
 category: database
 

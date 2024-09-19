@@ -55,9 +55,27 @@ const data = defineCollection({
   schema: z.any(),
 });
 
-const posts = defineCollection({
+const projects = defineCollection({
   type: "content",
-  schema: z.any(),
+  schema: z.object({
+    layout: z.string(),
+    permalink: z.string(),
+    category: z.string(),
+    meta: z.object({keywords: z.string()}),
+    project: z.object({
+      title: z.string(),
+      type: z.string(),
+      ci_url: z.string().optional(),
+      url: z.string(),
+      project_official_url: z.string().optional(),
+      logo: z.string(),
+      overview: z.string().optional()}),
+      supported_releases: z.any().optional(),
+      user_stories: z.any().optional(),
+      events: z.any().optional(),
+      work_items: z.any().optional(),
+      project_ci: z.any().optional(),
+    }),  
 });
 
 // Expose your defined collection to Astro
@@ -67,5 +85,5 @@ export const collections = {
   rows,
   sections,
   data,
-  posts,
+  projects,
 };

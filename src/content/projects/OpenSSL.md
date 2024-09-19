@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: ../../layouts/ProjectLayout.astro
 permalink: /:title/
 category: libraries
 
@@ -41,7 +41,7 @@ work_items:
 <p>OpenSSL</p>
 
 ---
-layout: project
+layout: ../../layouts/ProjectLayout.astro
 permalink: /:title/
 category: libraries
 
