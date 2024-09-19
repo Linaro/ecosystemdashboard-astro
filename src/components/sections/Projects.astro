@@ -4,50 +4,19 @@ import Categories from "../projects/Categories.astro";
 import { getCollection } from "astro:content";
 
 const { data: categories } = await getEntry("data", "categories");
-// const allPosts = await getCollection('posts');
+const projects = await getCollection("projects");
 
-const osPosts = await getCollection("projects", ({ data }) => {
-  return data.category === "os";
-});
-const librariesPosts = await getCollection("projects", ({ data }) => {
-  return data.category === "libraries";
-});
-const middlewarePosts = await getCollection("projects", ({ data }) => {
-  return data.category === "middleware";
-});
-const bigDataPosts = await getCollection("projects", ({ data }) => {
-  return data.category === "bigdata";
-});
-const webPosts = await getCollection("projects", ({ data }) => {
-  return data.category === "web";
-});
-const hpcPosts = await getCollection("projects", ({ data }) => {
-  return data.category === "hpc";
-});
-const aiPosts = await getCollection("projects", ({ data }) => {
-  return data.category === "ai";
-});
-const cloudPosts = await getCollection("projects", ({ data }) => {
-  return data.category === "cloud";
-});
-const databasePosts = await getCollection("projects", ({ data }) => {
-  return data.category === "database";
-});
-const storagePosts = await getCollection("projects", ({ data }) => {
-  return data.category === "storage";
-});
-// try by mapping all posts and see which is faster
 const postsByCategory = {
-  os: osPosts,
-  middleware: middlewarePosts,
-  libraries: librariesPosts,
-  bigdata: bigDataPosts,
-  web: webPosts,
-  hpc: hpcPosts,
-  ai: aiPosts,
-  cloud: cloudPosts,
-  database: databasePosts,
-  storage: storagePosts,
+  os: projects.filter((post) => post.data.category === "os"),
+  middleware: projects.filter((post) => post.data.category === "middleware"),
+  libraries: projects.filter((post) => post.data.category === "libraries"),
+  bigdata: projects.filter((post) => post.data.category === "bigdata"),
+  web: projects.filter((post) => post.data.category === "web"),
+  hpc: projects.filter((post) => post.data.category === "hpc"),
+  ai: projects.filter((post) => post.data.category === "ai"),
+  cloud: projects.filter((post) => post.data.category === "cloud"),
+  database: projects.filter((post) => post.data.category === "database"),
+  storage: projects.filter((post) => post.data.category === "storage"),
 };
 ---
 
