@@ -17,7 +17,7 @@ project:
 project_ci:
   - CI:
     title: "ISA-L Upstream CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://travis-ci.org/github/intel/isa-l"
 
 supported_releases:
@@ -32,7 +32,6 @@ work_items:
   - work:
     title: "ISA-L erasure codes NEON Support"
     status: "DONE"
-
 ---
 
 <p>ISA-L</p>

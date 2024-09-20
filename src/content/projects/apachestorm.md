@@ -18,9 +18,8 @@ project:
 project_ci:
   - CI:
     title: "Storm Upstream AArch64 CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://app.travis-ci.com/github/apache/storm"
-
 
 work_items:
   - work:
@@ -31,8 +30,6 @@ work_items:
     title: "[STORM-3681] Enable basic Arm64 CI task"
     url: "https://github.com/apache/storm/pull/3316"
     status: "DONE"
-
-
 ---
 
 <p>Apache Storm</p>

@@ -31,9 +31,8 @@ supported_releases:
 project_ci:
   - CI:
     title: "DPDK Upstream CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://lab.dpdk.org/results/dashboard/status/"
-
 ---
 
 <p>DPDK</p>

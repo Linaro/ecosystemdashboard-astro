@@ -18,9 +18,8 @@ project:
 project_ci:
   - CI:
     title: "Libvirt Upstream CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://gitlab.com/libvirt/libvirt/-/pipelines"
-
 ---
 
 <p>Libvirt</p>

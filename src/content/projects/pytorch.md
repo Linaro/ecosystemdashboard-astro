@@ -23,9 +23,8 @@ supported_releases:
 project_ci:
   - CI:
     title: "PyTorch Upstream CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://github.com/pytorch/pytorch/actions"
-
 ---
 
 <p>PyTorch</p>

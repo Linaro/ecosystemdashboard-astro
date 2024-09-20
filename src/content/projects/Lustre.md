@@ -23,7 +23,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Lustre CentOS8 Client CI - review-ldiskfs-arm"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://testing.whamcloud.com/test_sessions"
 
 work_items:
@@ -70,7 +70,6 @@ events:
     type: "Online Session"
     url: "https://insidehpc.com/2018/02/video-lustre-file-system-arm/"
     language: "English"
-
 ---
 
 <p>Lustre</p>

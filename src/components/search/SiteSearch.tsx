@@ -111,7 +111,6 @@ const SiteSearch = ({
             value={search().query ?? ""}
             onInput={(e) => {
               const value = e.target.value === "" ? null : e.target.value;
-              console.log("site",value)
               setSearch({
                 ...search(),
                 query: value ?? null,

@@ -32,7 +32,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "openEuler aarch64 CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://openeulerjenkins.osinfra.cn/job/multiarch/job/openeuler/job/aarch64/job/kernel/"
 
 work_items:

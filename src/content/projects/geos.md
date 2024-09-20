@@ -40,7 +40,7 @@ events:
 project_ci:
   - CI:
     title: "GEOS Upstream CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://beats-ci.elastic.co/job/Beats/"
 ---
 

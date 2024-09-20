@@ -23,9 +23,8 @@ supported_releases:
 project_ci:
   - CI:
     title: "Apaache HttpComponents Upstream CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://travis-ci.com/github/apache/httpcomponents-core"
-
 ---
 
 <p>Apache HttpComponents</p>

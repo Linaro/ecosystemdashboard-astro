@@ -23,10 +23,8 @@ supported_releases:
 project_ci:
   - CI:
     title: "Flannel Upstream CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://github.com/flannel-io/flannel/actions"
-
-
 ---
 
 <p>Flannel</p>

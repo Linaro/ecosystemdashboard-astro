@@ -31,7 +31,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "SPDK Mellanox CI on Aarch64"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://swx-ci.mellanox.com/spdk-test/blue/organizations/jenkins/basic_test_spdk_upstream_ci/activity"
 
 events:
@@ -50,7 +50,6 @@ events:
     type: "Online Session"
     url: "https://connect.linaro.org/resources/bkk19/bkk19-104/"
     language: "English"
-
 ---
 
 <p>SPDK</p>

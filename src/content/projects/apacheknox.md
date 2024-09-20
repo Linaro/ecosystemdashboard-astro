@@ -28,7 +28,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Konx Upstream AArch64 CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://app.travis-ci.com/github/apache/knox"
 
 ---

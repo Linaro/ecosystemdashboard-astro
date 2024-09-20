@@ -61,8 +61,6 @@ const NavSearch = () => {
     });
   };
 
-  console.log(results)
-
   return (
     <form onSubmit={onSubmit}>
       <div class={`w-full flex flex-col`}>

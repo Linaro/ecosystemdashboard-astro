@@ -23,7 +23,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "PMDK Travis CI - Arm64"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://travis-ci.org/github/pmem/pmdk"
 
 work_items:

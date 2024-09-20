@@ -27,11 +27,11 @@ supported_releases:
   - release:
     version: "1.5.1"
     url: "https://github.com/apache/guacamole-server/releases/tag/1.5.1"
-    
+
 project_ci:
   - CI:
     title: "Guacamole Upstream CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://github.com/apache/guacamole-server/actions"
 ---
 

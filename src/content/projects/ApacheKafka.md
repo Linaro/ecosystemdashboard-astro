@@ -18,16 +18,14 @@ project:
 project_ci:
   - CI:
     title: "Kafka Upstream AArch64 CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://ci-builds.apache.org/blue/organizations/jenkins/Kafka%2Fkafka-pr/activity/"
-
 
 work_items:
   - work:
     title: "[KAFKA-10759] Add Arm Build Stage"
     url: "https://github.com/apache/kafka/pull/9992"
     status: "DONE"
-
 ---
 
 <p>Apache Kafka</p>

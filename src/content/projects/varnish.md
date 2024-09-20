@@ -29,7 +29,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Varnish Cache CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://app.circleci.com/pipelines/github/varnishcache/varnish-cache?branch=master"
 
 events:
@@ -48,7 +48,6 @@ events:
     type: "News"
     url: "https://varnish-cache.org/security/VSV00011.html#vsv00011"
     language: "English"
-
 ---
 
 <p>Varnish</p>

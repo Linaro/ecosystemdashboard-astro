@@ -23,9 +23,8 @@ supported_releases:
 project_ci:
   - CI:
     title: "Firecracker Upstream CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://buildkite.com/firecracker/firecracker-ci/builds/"
-
 ---
 
 <p>Firecracker</p>

@@ -18,9 +18,8 @@ project:
 project_ci:
   - CI:
     title: "Drill Upstream AArch64 CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://app.travis-ci.com/github/apache/drill"
-
 ---
 
 <p>Apache Drill</p>

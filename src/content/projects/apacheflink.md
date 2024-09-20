@@ -23,7 +23,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Flink Upstream AArch64 CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://dev.azure.com/apache-flink/apache-flink/_build?definitionId=2"
 
 work_items:
@@ -31,7 +31,6 @@ work_items:
     title: "[FLINK-14482] Bump up rocksdb version"
     url: "https://issues.apache.org/jira/browse/FLINK-14482"
     status: "DONE"
-
 ---
 
 <p>Apache Flink</p>

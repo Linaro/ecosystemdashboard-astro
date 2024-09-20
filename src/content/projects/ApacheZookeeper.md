@@ -18,7 +18,7 @@ project:
 project_ci:
   - CI:
     title: "Zookeeper Upstream AArch64 CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://app.travis-ci.com/github/apache/zookeeper"
 
 supported_releases:
@@ -34,7 +34,6 @@ work_items:
     title: "[Zookeeper-3919] Add ARM64 jobs to Travis-CI"
     url: "https://issues.apache.org/jira/browse/ZOOKEEPER-3919"
     status: "DONE"
-
 ---
 
 <p>Apache Zookeeper</p>

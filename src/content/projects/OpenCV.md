@@ -29,7 +29,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Opencv Pullrequest ARM CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://pullrequest.opencv.org/buildbot/waterfall?tag=arm"
 
 work_items:
@@ -57,7 +57,6 @@ events:
     type: "Blog"
     url: "https://opencv.org/face-recognition-on-android-using-openvino-toolkit-with-arm-plugin/"
     language: "English"
-
 ---
 
 <p>OpenCV</p>

@@ -24,11 +24,11 @@ supported_releases:
   - release:
     version: "curl-8_2_0"
     url: "https://github.com/curl/curl/releases/tag/curl-8_2_0"
-    
+
 project_ci:
   - CI:
     title: "curl Upstream CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://github.com/curl/curl/actions"
 ---
 

@@ -23,7 +23,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "OpenEBS CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://github.com/openebs/openebs/actions"
 
 work_items:
@@ -38,7 +38,6 @@ events:
     type: "Blog"
     url: "https://blog.openebs.io/arming-kubernetes-with-openebs-1-b450f41e0c1f"
     language: "English"
-
 ---
 
 <p>OpenEBS</p>

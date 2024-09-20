@@ -1,6 +1,6 @@
 ---
 import type { AstroComponentFactory } from "astro/runtime/server/index.js";
-import { getCollection, getEntries } from "astro:content";
+import {  getEntries } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import BaseLayout from "./BaseLayout.astro";
 import Hero from "@/components/hero/Hero.astro";
@@ -15,20 +15,20 @@ const {
 const page = await getEntryBySlug("pages", slug)
 
 const { title, description, flow } = page.data
-
-const allComponents = await import.meta.glob("../components/**/*.astro")
+const allComponents = import.meta.glob("../components/{sections,rows}/*.astro") as Record<string, () => Promise<{default: AstroComponentFactory}>>
 const rowComponents = {} as Record<string, {default: AstroComponentFactory} >;
 const sectionComponents = {} as Record<
   string,
    {default: AstroComponentFactory }
 >;
 
+
 if (flow && flow?.length > 0) {
-  for (const rowData of await getEntries(flow.map((row: any) => row.row) as {collection: "rows", slug: CollectionEntry<"rows">["slug"]}[]))  {
+  for (const rowData of await getEntries(flow.map((row: any) => row.row) as {collection: "rows", slug: CollectionEntry<"rows">["slug"]}[])) {
     rowComponents[rowData.slug] = await allComponents[rowData.data.path.replace("@/components", "../components")]() as {default: AstroComponentFactory}
   }
 
-  for (const sectionData of await getEntries(flow.map((row: any) => row.sections!.map((section: any) => section.component)).flat() as {collection: "sections", slug: CollectionEntry<"sections">["slug"]}[]) ) {
+for (const sectionData of await getEntries(flow.map((row: any) => row.sections!.map((section: any) => section.component)).flat() as {collection: "sections", slug: CollectionEntry<"sections">["slug"]}[]) ) {
     sectionComponents[sectionData.slug] = await allComponents[sectionData.data.path.replace("@/components", "../components")]() as {default: AstroComponentFactory}
   }
 }
@@ -37,9 +37,10 @@ if (flow && flow?.length > 0) {
 
 <BaseLayout title={title} description={description}>
     <main 
-      class="mx-0 max-w-full marker:text-white" 
+      class="mx-0 max-w-full marker:text-white " 
       data-pagefind-body
-      data-pagefind-filter="type:page">
+      data-pagefind-filter="type:page"
+    >
       <span  data-pagefind-meta="title" class="hidden">{title}</span>
       {
         flow?.map((row: any) => {
@@ -53,7 +54,7 @@ if (flow && flow?.length > 0) {
                 return SectionComp ? <SectionComp {...sectionProps} ><slot /></SectionComp> : <div>Not implemented</div>
               }) : <></>}
             </RowComp>
-          ) : <div>Not implemented</div>
+          ) : <div>Not implemented</div>;
         })
       }
     </main>

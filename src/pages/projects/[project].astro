@@ -19,7 +19,6 @@ const { project } = Astro.params;
 let data;
 if (import.meta.env.SSR) {
   data = await getEntry("projects", project);
-  console.log(data);
 } else {
   data = Astro.props.post;
 }

@@ -17,7 +17,7 @@ const getArticle = async (result: any) => {
   return await result.data();
 };
 
-const getType = (type: "blogs" | "news" | "events" | "page") => {
+const getType = (type: "blogs" | "news" | "events" | "page" | "project") => {
   switch (type) {
     case "blogs":
       return "Blog";
@@ -27,11 +27,12 @@ const getType = (type: "blogs" | "news" | "events" | "page") => {
       return "Event";
     case "page":
       return "Page";
+    case "project":
+        return "Project";
   }
 };
 
 const NavResult = ({ result }: { result: any }) => {
-  console.log(result)
   const [article] = createResource(result, getArticle);
   return (
     <li class="w-full ">
@@ -82,6 +83,18 @@ const NavResult = ({ result }: { result: any }) => {
                   {article()?.meta.dates}
                   {" | "}
                   {article()?.meta.location}
+                </span>
+              </h3>
+            </div>
+          </Match>
+          <Match when={article()?.filters.type.includes("project")}>
+            <div class="basis-full">
+              <p class="text-md mb-4" innerHTML={article()?.excerpt} />
+              <h3 class="text-md font-bold">
+                <span>
+                  {article()?.meta.title}
+                  {" | "}
+                  {getType(article().filters.type[0])}
                 </span>
               </h3>
             </div>

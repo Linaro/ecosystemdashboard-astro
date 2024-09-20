@@ -74,7 +74,7 @@ const projects = defineCollection({
       user_stories: z.any().optional(),
       events: z.any().optional(),
       work_items: z.any().optional(),
-      project_ci: z.any().optional(),
+      project_ci: z.array(z.object({status: z.string(), title: z.string(), url: z.string()})).optional(),
     }),  
 });
 

@@ -29,7 +29,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Harbor Pullrequest CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://github.com/goharbor/harbor/actions?query=event%3Apush+branch%3Amain+workflow%3ACI+"
 
 events:
@@ -43,7 +43,6 @@ events:
     type: "Blog"
     url: "https://goharbor.io/blog/harbor-at-kubecon-amsterdam-2023/"
     language: "English"
-
 ---
 
 <p>Harbor</p>

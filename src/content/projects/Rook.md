@@ -23,7 +23,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Rook Github Actions CI - canary-arm64"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://github.com/rook/rook/actions/workflows/daily-nightly-jobs.yml"
 
 work_items:
@@ -56,7 +56,6 @@ events:
     type: "Blog"
     url: "https://www.humblec.com/ceph-csi-v2-0-0-released/"
     language: "English"
-
 ---
 
 <p>Rook</p>

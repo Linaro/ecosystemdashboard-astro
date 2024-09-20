@@ -28,7 +28,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "TinyXML2 Upstream CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://github.com/leethomason/tinyxml2/actions"
 ---
 

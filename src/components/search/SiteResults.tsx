@@ -20,7 +20,7 @@ const getArticle = async (result: any) => {
   return await result.data();
 };
 
-const getType = (type: "blogs" | "news" | "events" | "page") => {
+const getType = (type: "blogs" | "news" | "events" | "page" | "project") => {
   switch (type) {
     case "blogs":
       return "Blog";
@@ -30,6 +30,8 @@ const getType = (type: "blogs" | "news" | "events" | "page") => {
       return "Event";
     case "page":
       return "Page";
+    case "project":
+      return "Project";
   }
 };
 
@@ -124,6 +126,27 @@ const SiteResult = ({
                     {article()?.meta.dates}
                     {" | "}
                     {article()?.meta.location}
+                  </span>
+                </h3>
+              </div>
+            </div>
+          </Match>
+          <Match when={article()?.filters.type.includes("project")}>
+            <div class="flex gap-4">
+              <div class="w-full max-w-[10rem] rounded-xl">
+                <img
+                  src={isDev ? "/placeholder.jpg" : article()?.meta.logo}
+                  alt=""
+                  class="h-full w-full object-cover rounded-xl"
+                />
+              </div>
+              <div class="flex flex-col justify-between">
+                <p class="text-md mb-4" innerHTML={article()?.excerpt} />
+                <h3 class="text-md font-bold">
+                  <span>
+                    {article()?.meta.title}
+                    {" | "}
+                    {getType(article().filters.type[0])}
                   </span>
                 </h3>
               </div>

@@ -13,69 +13,131 @@ const {
       project: { title, overview, logo, url, project_official_url },
       supported_releases,
       events,
-      user_stories
+      user_stories,
+      project_ci,
+      work_items,
     },
   },
 } = Astro.props;
-
 ---
 
-<BaseLayout title={title} description={overview}>
-  <section class="mx-48 my-24">
-    <div class="flex flex-col items-center gap-8">
-      <h1 class="text-4xl mb-3">{title}</h1>
-      <h1 class="text-xl my-3">{overview}</h1>
-      <div
-      class="rounded-full h-48 w-48 bg-white flex items-center justify-center"
-    >
-      <Image src={logo} alt="logo" height={100} width={100} />
-    </div>
-      <a href={project_official_url} class="text-linaro-yellow">{project_official_url ?? url}</a>
-      <div class="faded-line"></div>
-    </div>
-    <div class="mb-12 flex flex-col gap-12 justify-end">
-      <h1 class="text-2xl">Details</h1>
-      <dl>
-        <hr />
-        <dt class="my-3">AArch64 Supported Releases</dt>
-        {supported_releases &&
-          supported_releases.map((item: any) => (
-            <hr />
-            <dd class="text-linaro-yellow my-3">
-              
-              <a href={item.url}>{item.version}</a>
-            </dd>
-            
-          ))
-        }
-        <hr />
-        <dt class="my-3">User Stories</dt>
-        {user_stories &&
-          user_stories.map((item: any) => (
-            <hr />
-            <dd class="text-linaro-yellow my-3">
-              <a href={item.url}>{item.title}</a>
-            </dd>
-            
-          ))
-        }
-        <hr />
-        <dt class="my-3">News and Events</dt>
-        {events && 
-          events.map((item: any) => (
-            <hr />
-            <dd class="text-linaro-yellow my-3">
-              
-              <a href={item.url}>
-                {`[${item.type}]`} {item.title} {`(${item.language})`}
-              </a>
-            </dd>
-          ))
-        }
-        <hr />
-      </dl>
-      <a href="/" class="linaro-gradient-button self-center mt-8">Back to dashboard</a>
-    </div>
-   
-  </section>
+<BaseLayout
+  title={`${title} | Linaro Ecosystem Dashboard`}
+  description={overview}
+>
+  <main data-pagefind-body data-pagefind-filter="type:project" class="z-0">
+    <section class="mx-48 my-24">
+      <div class="flex flex-col items-center gap-8">
+        <h1 class="text-4xl mb-3">{title}</h1>
+        <h1 class="text-xl my-3">{overview}</h1>
+        <div
+          class="rounded-full h-48 w-48 bg-white flex items-center justify-center"
+        >
+          <Image src={logo} alt="logo" height={100} width={100} />
+        </div>
+        <a href={project_official_url} class="text-linaro-yellow"
+          >{project_official_url ?? url}</a
+        >
+        <div class="faded-line"></div>
+      </div>
+      <div class="mb-12 flex flex-col gap-12 justify-end">
+        <h1 class="text-2xl">Details</h1>
+        <ul>
+          <hr />
+          <li class="my-3">AArch64 Supported Releases</li>
+          {
+            supported_releases &&
+              supported_releases.map((item: any) => (
+                <>
+                  <hr />
+                  <li class="text-linaro-yellow my-3">
+                    <a href={item.url}>{item.version}</a>
+                  </li>
+                </>
+              ))
+          }
+          {
+            user_stories && user_stories.length > 0 ? (
+              <>
+                <hr />
+                <li class="my-3">User Stories</li>
+                {user_stories.map((item: any, index: number) => (
+                  <li key={index} class="my-3">
+                    <hr />
+                    <li class="text-linaro-yellow my-3">
+                      <a href={item.url}>
+                        {`${item.title}${item.language ? ` - (${item.language})` : ""}`}
+                      </a>
+                      <p>{item.description}</p>
+                    </li>
+                  </li>
+                ))}
+              </>
+            ) : null
+          }
+          {
+            events && events.length > 0 ? (
+              <>
+                <hr />
+                <li class="my-3">News and Events</li>
+                {events.map((item: any, index: number) => (
+                  <li key={index} class="my-3">
+                    <hr />
+                    <li class="text-linaro-yellow my-3">
+                      <a href={item.url}>
+                        {`[${item.type}]`} {item.title} {`(${item.language})`}
+                      </a>
+                    </li>
+                  </li>
+                ))}
+              </>
+            ) : null
+          }
+          {
+            project_ci && project_ci.length > 0 ? (
+              <>
+                <hr />
+                <li class="my-3">Project AArch64 CI Status</li>
+                {project_ci.map((item: any, index: number) => (
+                  <li key={index} class="my-3">
+                    <hr />
+                    <li class="text-linaro-yellow my-3 flex justify-between">
+                      <a href={item.url}>{item.title}</a>
+                      <img
+                        src={item.status}
+                        alt="CIStatus"
+                        height={24}
+                        width={90}
+                      />
+                    </li>
+                  </li>
+                ))}
+              </>
+            ) : null
+          }
+          {
+            work_items && work_items.length > 0 ? (
+              <>
+                <hr />
+                <li class="my-3">Work Items</li>
+                {work_items.map((item: any, index: number) => (
+                  <li key={index} class="my-3">
+                    <hr />
+                    <li class="text-linaro-yellow my-3">
+                      <a href={item.url}>{`[${item.status}] ${item.title}`}</a>
+                    </li>
+                  </li>
+                ))}
+              </>
+            ) : null
+          }
+
+          <hr />
+        </ul>
+        <a href="/" class="linaro-gradient-button self-center mt-8"
+          >Back to dashboard</a
+        >
+      </div>
+    </section>
+  </main>
 </BaseLayout>

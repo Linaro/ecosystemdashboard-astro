@@ -23,10 +23,8 @@ supported_releases:
 project_ci:
   - CI:
     title: "Kata Containers Upstream CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "http://jenkins.katacontainers.io/"
-
-
 ---
 
 <p>Kata Containers</p>C

@@ -37,7 +37,7 @@ supported_releases:
 project_ci:
     - CI:
       title: "MariaDB Upstream AArch64 CI"
-      status: "/assets/images/projects/common/CI_status.png"
+      status: "/src/assets/images/content/CI_status.png"
       url: "https://buildbot.mariadb.org/#/builders?tags=%2Baarch64"
 
 events:

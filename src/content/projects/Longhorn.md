@@ -23,7 +23,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Longhorn Drone CI - default-arm64"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://drone-publish.longhorn.io/longhorn/longhorn-engine"
 
 work_items:
@@ -43,7 +43,6 @@ events:
     type: "Blog"
     url: "https://thenewstack.io/longhorn-kubernetes-block-storage-adds-snapshots-looks-to-edge-deployments-with-arm64-support/"
     language: "English"
-
 ---
 
 <p>Longhorn</p>

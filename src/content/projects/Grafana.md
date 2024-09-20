@@ -24,11 +24,11 @@ supported_releases:
   - release:
     version: "v10.0.9"
     url: "https://github.com/grafana/grafana/releases/tag/v10.0.9"
-    
+
 project_ci:
   - CI:
     title: "Grafana Upstream CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://drone.grafana.net/grafana/grafana"
 ---
 

@@ -23,9 +23,8 @@ supported_releases:
 project_ci:
   - CI:
     title: "Squid-Cache Upstream CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "http://build.squid-cache.org"
-
 ---
 
 <p>Squid-Cache</p>

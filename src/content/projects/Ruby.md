@@ -25,11 +25,10 @@ supported_releases:
     version: "Latest"
     url: "https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/"
 
-
 project_ci:
   - CI:
     title: "Ruby Cirrus-ci-arm"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://cirrus-ci.com/github/junaruga/ruby/wip/cirrus-ci-arm"
 
 work_items:
@@ -57,8 +56,6 @@ events:
     type: "Blog"
     url: "https://dev.sweatco.in/rails-on-arm/"
     language: "English"
-
-
 ---
 
 <p>Ruby</p>

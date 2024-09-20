@@ -18,7 +18,7 @@ project:
 project_ci:
   - CI:
     title: "Flume Upstream AArch64 CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://app.travis-ci.com/github/apache/flume"
 
 work_items:
@@ -26,8 +26,6 @@ work_items:
     title: "[Flume-3389] Build and test Apache Flume on ARM64 CPU architecture"
     url: "https://github.com/apache/flume/pull/340"
     status: "DONE"
-
-
 ---
 
 <p>Apache Flume</p>

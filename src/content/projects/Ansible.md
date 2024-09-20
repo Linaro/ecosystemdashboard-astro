@@ -43,7 +43,7 @@ events:
 project_ci:
   - CI:
     title: "Ansible Upstream CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://dev.azure.com/ansible/ansible/_build/results?buildId=90071&view=results"
 ---
 

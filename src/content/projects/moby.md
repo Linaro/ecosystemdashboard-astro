@@ -23,10 +23,8 @@ supported_releases:
 project_ci:
   - CI:
     title: "Moby Upstream CI"
-    status: "/assets/images/projects/common/CI_status.png"
+    status: "/src/assets/images/content/CI_status.png"
     url: "https://ci-next.docker.com/public/blue/organizations/jenkins/moby/activity"
-
-
 ---
 
 <p>Moby</p>
