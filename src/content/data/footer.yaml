@@ -1,20 +1,67 @@
-# company_links:
-#   - label: Legal
-#     url: https://www.linaro.org/legal/
-#   - label: Contact
-#     url: https://www.linaro.org/contact
+nav_links:
+  - label: Products & Solutions
+    key: solutions
+    children:
+      - label: HPC
+        url: https://www.linaroforge.com
+      - label: IoT & Embedded Systems
+        url: https://www.linaro.org/solutions/iot-embedded
+        children:
+          - label: CodeLinaro
+            url: https://www.linaro.org/solutions/codelinaro
+          - label: ONELab
+            url: https://www.linaro.org/solutions/onelab
+      - label: AI & Machine Learning
+        url: https://www.linaro.org/solutions/ai-ml
+      - label: Automotive
+        url: https://www.linaro.org/solutions/automotive
+      - label: Long Term Support
+        url: https://www.linaro.org/solutions/lts
+  - label: Services & Support
+    key: Services
+    children:
+      - label: Consulting
+        url: https://www.linaro.org/services/consulting
+      - label: Training & Learning
+        url: https://www.linaro.org/services/training
+  - label: Ecosystem Projects
+    key: ecosystem
+    children:
+      - label: Windows on Arm
+        url: https://www.linaro.org/projects/windows-on-arm
+      - label: Automotive, IoT & Edge
+        url: https://www.linaro.org/projects/automotive-iot-edge
+      - label: Cloud Computing & Servers
+        url: https://www.linaro.org/projects/cloud-computing
+      - label: Qualcomm Platform Services
+        url: https://www.linaro.org/projects/qualcomm-platform
+  - label: Resource Center
+    key: resources
+    children:
+      - label: Downloads
+        url: https://www.linaro.org/downloads
+      - label: Blog
+        url: https://www.linaro.org/blog
+      - label: White Papers
+        url: https://www.linaro.org/whitepapers
+      - label: Newsroom
+        url: https://www.linaro.org/news
+      - label: Videos & Webinars
+        url: https://resources.linaro.org/
+      - label: Events
+        url: https://www.linaro.org/events
+  - label: Company
+    key: company
+    children:
+      - label: About
+        url: https://www.linaro.org/about
+      - label: Careers
+        url: https://www.linaro.org/careers
 
-# Copyright text to be displayed at the very bottom of the footer
-copyright_text: Linaro Limited - Copyright © 2022 The Apache Software Foundation, Licensed under the Apache License, Version 2.0.
-# Set this to false if you do not want the Linaro logo in the footer.
-footer_brand:
-  logo: /assets/images/Linaro-logo-white.png
-# Social Media Icons Row
-social_media_icons: false
-# These links are displayed at the very bottom of the footer.
 company_links:
   - label: Contact
-    url: https://www.linaro.org/contact/
+    url: https://www.linaro.org/contact
   - label: Legal
     url: https://www.linaro.org/legal
-nav_links:
+  # - label: Cookies
+  #   url: /cookies

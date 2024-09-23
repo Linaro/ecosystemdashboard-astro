@@ -1,26 +1,53 @@
-- label: Projects
-  key: projects
-  url: https://www.linaro.org/projects/
-- label: Membership
-  key: membership
-  url: https://www.linaro.org/membership/
-- label: Services
-  key: services
-  url: https://www.linaro.org/services/
-- label: Support
-  key: support
-  url: https://www.linaro.org/support/
-- label: Downloads
-  key: downloads
-  url: https://www.linaro.org/downloads/
-- label: About
-  key: about
+- label: Products & Solutions
+  key: solutions
   children:
-    - label: About Us
-      url: https://www.linaro.org/about/
-    - label: Blogs
-      url: https://www.linaro.org/blog/
+    - label: HPC
+      url: https://www.linaroforge.com
+    - label: IoT & Embedded Systems
+      url: https://www.linaro.org/solutions/iot-embedded
+    - label: AI & Machine Learning
+      url: https://www.linaro.org/solutions/ai-ml
+    - label: Automotive
+      url: https://www.linaro.org/solutions/automotive
+    - label: Long Term Support
+      url: https://www.linaro.org/solutions/lts
+- label: Services & Support
+  key: Services
+  children:
+    - label: Consulting
+      url: https://www.linaro.org/services/consulting
+    - label: Training & Learning
+      url: https://www.linaro.org/services/training
+- label: Ecosystem Projects
+  key: ecosystem
+  children:
+    - label: Windows on Arm
+      url: https://www.linaro.org/projects/windows-on-arm
+    - label: Automotive, IoT & Edge
+      url: https://www.linaro.org/projects/automotive-iot-edge
+    - label: Cloud Computing & Servers
+      url: https://www.linaro.org/projects/cloud-computing
+    - label: Qualcomm Platform Services
+      url: https://www.linaro.org/projects/qualcomm-platform
+- label: Resource Center
+  key: resources
+  children:
+    - label: Downloads
+      url: https://www.linaro.org/downloads
+    - label: Blog
+      url: https://www.linaro.org/blog
+    - label: White Papers
+      url: https://www.linaro.org/whitepapers
+    - label: Newsroom
+      url: https://www.linaro.org/news
+    - label: Videos & Webinars
+      url: https://resources.linaro.org/
     - label: Events
-      url: https://www.linaro.org/events/
-    - label: News
-      url: https://www.linaro.org/news/
+      url: https://www.linaro.org/events
+- label: Company
+  key: company
+  children:
+    - label: About
+      url: https://www.linaro.org/about
+    - label: Careers
+      url: https://www.linaro.org/careers

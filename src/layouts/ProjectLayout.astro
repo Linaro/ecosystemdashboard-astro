@@ -23,7 +23,7 @@ const {
 
 <BaseLayout
   title={`${title} | Linaro Ecosystem Dashboard`}
-  description={overview}
+  description={overview ?? title}
 >
   <main data-pagefind-body data-pagefind-filter="type:project" class="z-0">
     <section class="mx-48 my-24">
@@ -61,8 +61,8 @@ const {
               <>
                 <hr />
                 <li class="my-3">User Stories</li>
-                {user_stories.map((item: any, index: number) => (
-                  <li key={index} class="my-3">
+                {user_stories.map((item: any) => (
+                  <li class="my-3">
                     <hr />
                     <li class="text-linaro-yellow my-3">
                       <a href={item.url}>
@@ -80,8 +80,8 @@ const {
               <>
                 <hr />
                 <li class="my-3">News and Events</li>
-                {events.map((item: any, index: number) => (
-                  <li key={index} class="my-3">
+                {events.map((item: any) => (
+                  <li class="my-3">
                     <hr />
                     <li class="text-linaro-yellow my-3">
                       <a href={item.url}>
@@ -98,8 +98,8 @@ const {
               <>
                 <hr />
                 <li class="my-3">Project AArch64 CI Status</li>
-                {project_ci.map((item: any, index: number) => (
-                  <li key={index} class="my-3">
+                {project_ci.map((item: any) => (
+                  <li class="my-3">
                     <hr />
                     <li class="text-linaro-yellow my-3 flex justify-between">
                       <a href={item.url}>{item.title}</a>
@@ -120,8 +120,8 @@ const {
               <>
                 <hr />
                 <li class="my-3">Work Items</li>
-                {work_items.map((item: any, index: number) => (
-                  <li key={index} class="my-3">
+                {work_items.map((item: any) => (
+                  <li class="my-3">
                     <hr />
                     <li class="text-linaro-yellow my-3">
                       <a href={item.url}>{`[${item.status}] ${item.title}`}</a>
