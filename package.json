@@ -8,7 +8,16 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "start:public": "IS_PUBLIC=true astro dev",
+    "dev:public": "IS_PUBLIC=true astro dev",
+    "preview:public": "IS_PUBLIC=true astro preview",
+    "build:public": "IS_PUBLIC=true astro build",
+    "start:build": "IS_PUBLIC=true astro build && IS_PUBLIC=true astro dev",
+    "dev:auth": "IS_PUBLIC=false sst bind astro dev",
+    "start:auth": "IS_PUBLIC=false sst bind astro dev",
+    "prebuild:auth": "PRE_BUILD=true astro build --outDir ./dist_prebuild/",
+    "build:auth": "yarn prebuild:auth && astro build"
   },
   "dependencies": {
     "@astrojs/check": "^0.6.0",
