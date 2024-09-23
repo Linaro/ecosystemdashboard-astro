@@ -149,8 +149,6 @@ The following commands can then be used to build and run the site locally.
 | `yarn start`   | Runs the site in a development server, with hot module replacement to reflect updates to the code as soon as they are saved.                                                            |
 | `yarn preview` | Runs the most recent build files in a development server. Unlike `yarn dev` this won't have live updates, but will be a closer representation of the site as it would be in deployment. |
 
-For local development, the `IS_PUBLIC` environment variable should be set to `true` in a `.env.local` file to avoid needing additional login configuration for the protected site.
-
 Environment variables can also be overriden oravoided by using the `:public` vs `:auth` suffixes on any of the above commands to use either the public or login protected site respectively.
 
 ## Questions?
