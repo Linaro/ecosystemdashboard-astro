@@ -30,7 +30,7 @@ Directory "src/content/projects/" contains all the sub-page info using yaml, so 
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | category\*                       | Filling the category filed, e.g. "storage", "database", "big data"                                                      |
 | project - type\*                 | Coding language of the project                                                                                          |
-| project - logo\*                 | Better to find the png logo without any background. Store it at src/assets/images/content/projectLogos                  |
+| project - logo\*                 | Better to find the png logo without any background. Store it at public/assets/projectLogos/                             |
 | project - overview\*             | Project introduction                                                                                                    |
 | support_release\*                | All support arm64 release                                                                                               |
 | user_stories(if have) - optional | The user stories, please check with user before public the cases. Reference to [Hadoop User story][1]                   |

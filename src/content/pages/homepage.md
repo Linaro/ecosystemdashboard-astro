@@ -14,7 +14,7 @@ flow:
         text_content: Click the projects' logos to check Arm support details
         style: text-center text-2xl mt-16
       - component: text
-        text_content: Want to submit a project? <br>[Click here](https://github.com/Linaro/ecosystemlandscape#project-details-structure) for guidelines and instructions first
+        text_content: Want to submit a project? <br>[Click here](https://github.com/Linaro/ecosystemlandscape-astro#project-details-structure) for guidelines and instructions first
         style: text-center text-2xl mb-0 mt-8
   - row: container_row
     sections:
