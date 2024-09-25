@@ -23,7 +23,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Longhorn Drone CI - default-arm64"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://drone-publish.longhorn.io/longhorn/longhorn-engine"
 
 work_items:

@@ -23,7 +23,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Lustre CentOS8 Client CI - review-ldiskfs-arm"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://testing.whamcloud.com/test_sessions"
 
 work_items:

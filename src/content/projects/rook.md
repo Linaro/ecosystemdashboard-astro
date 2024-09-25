@@ -23,7 +23,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Rook Github Actions CI - canary-arm64"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://github.com/rook/rook/actions/workflows/daily-nightly-jobs.yml"
 
 work_items:

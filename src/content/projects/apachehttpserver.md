@@ -23,7 +23,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Apache HttpServer Upstream CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://travis-ci.com/github/apache/httpd/pull_requests"
 ---
 

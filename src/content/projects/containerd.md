@@ -23,7 +23,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Containerd Upstream CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://github.com/containerd/containerd/actions"
 ---
 

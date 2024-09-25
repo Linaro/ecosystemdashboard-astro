@@ -23,7 +23,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Varnish Cache Upstream CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://app.circleci.com/pipelines/github/varnishcache/varnish-cache"
 ---
 

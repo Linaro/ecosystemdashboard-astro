@@ -18,7 +18,7 @@ project:
 project_ci:
   - CI:
     title: "Hive Upstream AArch64 CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://ci-hadoop.apache.org/view/Hive/job/Hive-trunk-linux-ARM/"
 
 work_items:

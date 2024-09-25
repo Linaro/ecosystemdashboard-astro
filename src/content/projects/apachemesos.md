@@ -23,7 +23,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Apaache Mesos Upstream CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://ci-builds.apache.org/job/Mesos/job/Mesos-Buildbot-ARM"
 ---
 

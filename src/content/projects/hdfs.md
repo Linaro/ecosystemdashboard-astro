@@ -26,7 +26,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Hadoop Upstream AArch64 CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://ci-hadoop.apache.org/view/Hadoop/job/hadoop-qbt-linux-ARM-trunk/"
 ---
 

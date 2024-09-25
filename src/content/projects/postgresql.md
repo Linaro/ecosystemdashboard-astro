@@ -23,7 +23,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "PostgreSQL Upstream AArch64 CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://buildfarm.postgresql.org/cgi-bin/show_history.pl?nm=eelpout&br=HEAD"
 ---
 

@@ -23,7 +23,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Flink Upstream AArch64 CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://dev.azure.com/apache-flink/apache-flink/_build?definitionId=2"
 
 work_items:

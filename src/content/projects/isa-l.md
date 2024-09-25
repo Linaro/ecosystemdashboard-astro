@@ -17,7 +17,7 @@ project:
 project_ci:
   - CI:
     title: "ISA-L Upstream CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://travis-ci.org/github/intel/isa-l"
 
 supported_releases:

@@ -29,7 +29,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Opencv Pullrequest ARM CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://pullrequest.opencv.org/buildbot/waterfall?tag=arm"
 
 work_items:

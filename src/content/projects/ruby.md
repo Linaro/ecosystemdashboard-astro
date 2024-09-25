@@ -28,7 +28,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Ruby Cirrus-ci-arm"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://cirrus-ci.com/github/junaruga/ruby/wip/cirrus-ci-arm"
 
 work_items:

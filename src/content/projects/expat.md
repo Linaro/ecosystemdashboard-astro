@@ -43,7 +43,7 @@ events:
 project_ci:
   - CI:
     title: "Expat Upstream CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://github.com/libexpat/libexpat/actions/workflows/linux.yml/badge.svg"
 ---
 

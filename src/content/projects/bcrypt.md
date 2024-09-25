@@ -38,7 +38,7 @@ events:
 project_ci:
   - CI:
     title: "Bcrypt Upstream CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://github.com/patrickfav/bcrypt/actions/workflows/build_deploy.yml/badge.svg"
 ---
 

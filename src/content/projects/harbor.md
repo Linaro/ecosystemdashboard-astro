@@ -29,7 +29,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Harbor Pullrequest CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://github.com/goharbor/harbor/actions?query=event%3Apush+branch%3Amain+workflow%3ACI+"
 
 events:

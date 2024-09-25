@@ -28,7 +28,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Livy Upstream CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://app.travis-ci.com/github/apache/incubator-livy"
 ---
 

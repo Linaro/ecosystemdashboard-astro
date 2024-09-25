@@ -18,7 +18,7 @@ project:
 project_ci:
   - CI:
     title: "Zookeeper Upstream AArch64 CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://app.travis-ci.com/github/apache/zookeeper"
 
 supported_releases:

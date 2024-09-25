@@ -18,7 +18,7 @@ project:
 project_ci:
   - CI:
     title: "Kafka Upstream AArch64 CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://ci-builds.apache.org/blue/organizations/jenkins/Kafka%2Fkafka-pr/activity/"
 
 work_items:

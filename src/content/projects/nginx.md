@@ -23,7 +23,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Nginx Upstream CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "http://nginx.org/en/index.html#tested_os_and_platforms"
 ---
 

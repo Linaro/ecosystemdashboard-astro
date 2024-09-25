@@ -23,7 +23,7 @@ supported_releases:
 project_ci:
   - CI:
     title: "Qemu Upstream CI"
-    status: "/src/assets/images/content/CI_status.png"
+    status: "/assets/CI_status.png"
     url: "https://gitlab.com/qemu-project/qemu/-/pipelines"
 ---
 
