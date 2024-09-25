@@ -11,7 +11,7 @@ flow:
         text_content: The hub for all Arm developers across the world
         style: text-center text-5xl mt-16
       - component: text
-        text_content: Click the projects' logos to check Arm support details
+        text_content: Click the logo for a project to check Arm support details
         style: text-center text-2xl mt-16
       - component: text
         text_content: Want to submit a project? <br>[Click here](https://github.com/Linaro/ecosystemlandscape-astro#project-details-structure) for guidelines and instructions first
