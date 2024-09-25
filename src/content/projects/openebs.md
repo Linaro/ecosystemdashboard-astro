@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/openebs/openebs/actions"
   url: "OpenEBS"
   project_official_url: "https://openebs.io/"
-  logo: "/src/assets/images/content/projectLogos/openebs.svg"
+  logo: "/public/assets/projectLogos/openebs.svg"
   overview: "OpenEBS turns any storage available to Kubernetes worker nodes into Local or Distributed Kubernetes Persistent Volumes. OpenEBS helps Application and Platform teams easily deploy Kubernetes Stateful Workloads that require fast and highly durable, reliable and scalable Container Attached Storage."
 
 supported_releases:

@@ -12,7 +12,7 @@ project:
   ci_url: "https://logstash-ci.elastic.co/computer/search/?q=aarch64&Jenkins-Crumb=fc179e0b76031b4d1ab62e53f5e30dd7d62a39f4e56bb94e8f1258b7fdfc9b48"
   url: "Logstash"
   project_official_url: "https://www.elastic.co/logstash/"
-  logo: "/src/assets/images/content/projectLogos/logstash.png"
+  logo: "/public/assets/projectLogos/logstash.png"
   overview: "Logstash is a free and open server-side data processing pipeline that ingests data from a multitude of sources, transforms it, and then sends it to your favorite stash."
 
 supported_releases:

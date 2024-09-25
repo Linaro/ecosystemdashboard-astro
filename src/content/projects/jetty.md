@@ -11,7 +11,7 @@ project:
   type: "Java"
   url: "HAProxy"
   project_official_url: "https://www.eclipse.org/jetty"
-  logo: "/src/assets/images/content/projectLogos/jetty.png"
+  logo: "/public/assets/projectLogos/jetty.png"
   overview: "Jetty provides a web server and servlet container, additionally providing support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations. These components are open source and are freely available for commercial use and distribution."
 
 supported_releases:

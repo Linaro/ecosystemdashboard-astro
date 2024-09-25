@@ -11,7 +11,7 @@ project:
   type: "Java"
   url: "https://github.com/Tencent/tinker"
   project_official_url: "https://github.com/Tencent/tinker"
-  logo: "/src/assets/images/content/projectLogos/tinker.png"
+  logo: "/public/assets/projectLogos/tinker.png"
   overview: "Tinker is a hot-fix solution library for Android, it supports dex, library and resources update without reinstalling apk."
 
 supported_releases:

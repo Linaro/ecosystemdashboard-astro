@@ -11,7 +11,7 @@ project:
   type: "Java"
   url: "https://github.com/apache/tez"
   project_official_url: "https://tez.apache.org/"
-  logo: "/src/assets/images/content/projectLogos/ant.png"
+  logo: "/public/assets/projectLogos/ant.png"
   overview: "Apache Tez is a generic data-processing pipeline engine envisioned as a low-level engine for higher abstractions such as Apache Hadoop Map-Reduce, Apache Pig, Apache Hive etc."
 
 supported_releases:

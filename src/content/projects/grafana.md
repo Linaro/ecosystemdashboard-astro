@@ -11,7 +11,7 @@ project:
   type: "TypeScript"
   url: "Grafana"
   project_official_url: "https://grafana.com/"
-  logo: "/src/assets/images/content/projectLogos/grafana.png"
+  logo: "/public/assets/projectLogos/grafana.png"
   overview: "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more."
 
 supported_releases:

@@ -11,7 +11,7 @@ project:
   type: "Java"
   ci_url: "https://travis-ci.com/github/apache/zookeeper/pull_requests"
   url: "ApacheParquet"
-  logo: "/src/assets/images/content/projectLogos/zookeeper.png"
+  logo: "/public/assets/projectLogos/zookeeper.png"
   project_official_url: "http://zookeeper.apache.org/"
   overview: "Apache ZooKeeper is an effort to develop and maintain an open-source server which enables highly reliable distributed coordination."
 

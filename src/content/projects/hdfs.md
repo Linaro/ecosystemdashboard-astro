@@ -12,7 +12,7 @@ project:
   ci_url: "https://ci-hadoop.apache.org/"
   url: "HDFS"
   project_official_url: "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html"
-  logo: "/src/assets/images/content/projectLogos/hdfs.png"
+  logo: "/public/assets/projectLogos/hdfs.png"
   overview: "The Hadoop Distributed File System (HDFS) is a distributed file system designed to run on commodity hardware. It has many similarities with existing distributed file systems. However, the differences from other distributed file systems are significant. HDFS is highly fault-tolerant and is designed to be deployed on low-cost hardware. "
 
 supported_releases:

@@ -9,7 +9,7 @@ meta:
 project:
   title: "Robox"
   type: "Shell"
-  logo: "/src/assets/images/content/projectLogos/robox.png"
+  logo: "/public/assets/projectLogos/robox.png"
   url: "Robox"
   project_official_url: "https://roboxes.org"
   overview: "Roboxes is a project that encapsulates Packer templates for building base boxes suitable for use with Vagrant, Docker, or as generic open virtualization appliances. A subset of the templates are built and available from the Vagrant Cloud."

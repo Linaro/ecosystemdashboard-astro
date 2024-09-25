@@ -11,7 +11,7 @@ project:
   type: "Java"
   ci_url: "https://trino.io/docs/current/release/release-330.html"
   url: "Trino(Presto)"
-  logo: "/src/assets/images/content/projectLogos/trino.png"
+  logo: "/public/assets/projectLogos/trino.png"
   project_official_url: "https://trino.io/"
   overview: "Fast distributed SQL query engine for big data analytics that helps you explore your data universe."
 

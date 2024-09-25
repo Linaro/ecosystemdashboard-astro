@@ -11,7 +11,7 @@ project:
   type: "go"
   url: "https://github.com/google/android-cuttlefish"
   project_official_url: "https://source.android.com/docs/setup/create/cuttlefish"
-  logo: "/src/assets/images/content/projectLogos/cuttlefish.png"
+  logo: "/public/assets/projectLogos/cuttlefish.png"
   overview: "Cuttlefish is a configurable virtual Android device that can run both remotely (using third-party cloud offerings such as Google Cloud Engine) and locally (on Linux x86 machines)."
 
 ---

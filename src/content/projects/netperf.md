@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "https://github.com/HewlettPackard/netperf"
   project_official_url: "https://github.com/HewlettPackard/netperf"
-  logo: "/src/assets/images/content/projectLogos/netperf.png"
+  logo: "/public/assets/projectLogos/netperf.png"
   overview: "Netperf is a benchmark that can be used to measure the performance of many different types of networking. It provides tests for both unidirectional throughput, and end-to-end latency."
 
 supported_releases:

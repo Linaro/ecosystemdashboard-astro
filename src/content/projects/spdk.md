@@ -11,7 +11,7 @@ project:
   type: "C"
   ci_url: "https://spdk.io/"
   url: "https://spdk.io/"
-  logo: "/src/assets/images/content/projectLogos/spdk.png"
+  logo: "/public/assets/projectLogos/spdk.png"
   overview: "The Storage Performance Development Kit (SPDK) provides a set of tools and libraries for writing high performance, scalable, user-mode storage applications. It achieves high performance by moving all of the necessary drivers into userspace and operating in a polled mode instead of relying on interrupts, which avoids kernel context switches and eliminates interrupt handling overhead."
 
 supported_releases:

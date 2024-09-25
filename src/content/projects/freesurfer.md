@@ -11,7 +11,7 @@ project:
   type: "C++"
   url: "https://surfer.nmr.mgh.harvard.edu/"
   project_official_url: "https://github.com/freesurfer/freesurfer"
-  logo: "/src/assets/images/content/projectLogos/freesurfer.png"
+  logo: "/public/assets/projectLogos/freesurfer.png"
   overview: "FreeSurfer is a software package for the analysis and visualization of neuroimaging data from cross-sectional and longitudinal studies."
 
 supported_releases:

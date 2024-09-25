@@ -11,7 +11,7 @@ project:
   type: "C"
   ci_url: "https://facebook.github.io/zstd/"
   url: "https://facebook.github.io/zstd/"
-  logo: "/src/assets/images/content/projectLogos/zstd.png"
+  logo: "/public/assets/projectLogos/zstd.png"
 ---
 
 <p>Zstd</p>

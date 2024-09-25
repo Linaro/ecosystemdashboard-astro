@@ -11,7 +11,7 @@ project:
   type: "C"
   ci_url: "https://travis-ci.org/github/syslog-ng/syslog-ng"
   url: "https://travis-ci.org/github/syslog-ng/syslog-ng"
-  logo: "/src/assets/images/content/projectLogos/syslog-ng.png"
+  logo: "/public/assets/projectLogos/syslog-ng.png"
 ---
 
 <p>syslog-ng</p>

@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "PaceMaker"
   project_official_url: "https://www.clusterlabs.org/pacemaker/"
-  logo: "/src/assets/images/content/projectLogos/pacemaker.png"
+  logo: "/public/assets/projectLogos/pacemaker.png"
   overview: "Pacemaker is an advanced, scalable high-availability cluster resource manager. It supports N-node clusters with significant capabilities for managing resources and dependencies. It will run scripts at initialization, when machines go up or down, when related resources fail and can be configured to periodically check resource health."
 
 supported_releases:

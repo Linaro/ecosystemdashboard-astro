@@ -12,7 +12,7 @@ project:
   ci_url: "https://www.centos.org/"
   url: "https://www.centos.org/"
   project_official_url: "https://www.centos.org/"
-  logo: "/src/assets/images/content/projectLogos/centos.png"
+  logo: "/public/assets/projectLogos/centos.png"
   overview: "The CentOS Linux distribution is a stable, predictable, manageable and reproducible platform derived from the sources of Red Hat Enterprise Linux (RHEL)."
 
 supported_releases:

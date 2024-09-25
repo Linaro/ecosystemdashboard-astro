@@ -11,7 +11,7 @@ project:
   type: "Java"
   ci_url: "http://ant.apache.org/"
   url: "http://ant.apache.org/"
-  logo: "/src/assets/images/content/projectLogos/ant.png"
+  logo: "/public/assets/projectLogos/ant.png"
 ---
 
 <p>Apache Ant</p>

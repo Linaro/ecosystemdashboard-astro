@@ -11,7 +11,7 @@ project:
   type: "Rust"
   ci_url: "https://gitee.com/openeuler/stratovirt"
   url: "https://gitee.com/openeuler/stratovirt"
-  logo: "/src/assets/images/content/projectLogos/stratovirt.png"
+  logo: "/public/assets/projectLogos/stratovirt.png"
 ---
 
 <p>StratoVirt</p>

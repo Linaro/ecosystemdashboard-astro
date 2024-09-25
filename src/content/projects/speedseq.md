@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "https://github.com/hall-lab/speedseq"
   project_official_url: "https://github.com/hall-lab/speedseq"
-  logo: "/src/assets/images/content/projectLogos/speedseq.png"
+  logo: "/public/assets/projectLogos/speedseq.png"
   overview: "A flexible framework for rapid genome analysis and interpretation"
 
 supported_releases:

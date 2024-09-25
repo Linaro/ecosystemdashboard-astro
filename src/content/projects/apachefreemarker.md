@@ -12,7 +12,7 @@ project:
   ci_url: "https://travis-ci.com/github/apache/freemarker"
   url: "ApacheFreeMarker"
   project_official_url: "https://freemarker.apache.org/"
-  logo: "/src/assets/images/content/projectLogos/freemarker.png"
+  logo: "/public/assets/projectLogos/freemarker.png"
   overview: "Apache FreeMarker™ is a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data."
 
 supported_releases:

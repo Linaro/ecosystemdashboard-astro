@@ -9,7 +9,7 @@ meta:
 project:
   title: "Kyuubi"
   type: "Scala"
-  logo: "/src/assets/images/content/projectLogos/kyuubi.svg"
+  logo: "/public/assets/projectLogos/kyuubi.svg"
   url: "Kyuubi"
   project_official_url: "https://kyuubi.apache.org/"
   overview: "Apache Kyuubi is a distributed and multi-tenant gateway to provide serverless SQL on data warehouses and lakehouses."

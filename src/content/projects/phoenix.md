@@ -9,7 +9,7 @@ meta:
 project:
   title: "Phoenix"
   type: "Elixir"
-  logo: "/src/assets/images/content/projectLogos/phoenix.png"
+  logo: "/public/assets/projectLogos/phoenix.png"
   url: "Phoenix"
   project_official_url: "https://www.phoenixframework.org/"
   overview: "Peace of mind from prototype to production. To build rich, interactive web applications quickly, with less code and fewer moving parts."

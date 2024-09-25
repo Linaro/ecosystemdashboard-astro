@@ -12,7 +12,7 @@ project:
   ci_url: "https://nodejs.org"
   url: "https://nodejs.org"
   project_official_url: "https://nodejs.org/"
-  logo: "/src/assets/images/content/projectLogos/node.png"
+  logo: "/public/assets/projectLogos/node.png"
   overview: "Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside a browser. JavaScript performance is great on Arm in both Android and server platforms."
 
 supported_releases:

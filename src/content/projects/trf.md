@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "https://tandem.bu.edu/trf/trf.html"
   project_official_url: "https://github.com/Benson-Genomics-Lab/TRF"
-  logo: "/src/assets/images/content/projectLogos/trf.png"
+  logo: "/public/assets/projectLogos/trf.png"
   overview: "A tandem repeat in DNA is two or more adjacent, approximate copies of a pattern of nucleotides. Tandem Repeats Finder is a program to locate and display tandem repeats in DNA sequences."
 
 supported_releases:

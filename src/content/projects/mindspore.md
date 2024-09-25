@@ -12,7 +12,7 @@ project:
   ci_url: "https://www.mindspore.cn/install/en"
   url: "MindSpore"
   project_official_url: "https://www.mindspore.cn/en"
-  logo: "/src/assets/images/content/projectLogos/mindspore.png"
+  logo: "/public/assets/projectLogos/mindspore.png"
   overview: "MindSpore is a new open source deep learning training/inference framework that could be used for mobile, edge and cloud scenarios."
 
 supported_releases:

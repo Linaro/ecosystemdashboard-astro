@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "RE2"
   project_official_url: "https://www.netdata.cloud"
-  logo: "/src/assets/images/content/projectLogos/re2.png"
+  logo: "/public/assets/projectLogos/re2.png"
   overview: "RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library."
 
 supported_releases:

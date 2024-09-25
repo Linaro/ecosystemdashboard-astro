@@ -10,7 +10,7 @@ project:
   title: "ProxySQL"
   type: "C++"
   ci_url: "https://github.com/sysown/proxysql/releases"
-  logo: "/src/assets/images/content/projectLogos/proxysql.png"
+  logo: "/public/assets/projectLogos/proxysql.png"
   url: "ProxySQL"
   project_official_url: "https://www.proxysql.com/"
   overview: "ProxySQL is a high performance, high availability, protocol aware proxy for MySQL and forks

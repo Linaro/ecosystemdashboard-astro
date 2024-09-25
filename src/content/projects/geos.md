@@ -11,7 +11,7 @@ project:
   type: "C++"
   url: "GEOS"
   project_official_url: "https://libgeos.org/"
-  logo: "/src/assets/images/content/projectLogos/geos.png"
+  logo: "/public/assets/projectLogos/geos.png"
   overview: "GEOS is a C++ library for performing operations on two-dimensional vector geometries. It is primarily a port of the JTS Topology Suite Java library. It provides many of the algorithms used by PostGIS, the Shapely package for Python, the sf package for R, and others."
 
 supported_releases:

@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "jemalloc"
   project_official_url: "http://jemalloc.net"
-  logo: "/src/assets/images/content/projectLogos/jemalloc.png"
+  logo: "/public/assets/projectLogos/jemalloc.png"
   overview: "jemalloc is a general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support. jemalloc first came into use as the FreeBSD libc allocator in 2005, and since then it has found its way into numerous applications that rely on its predictable behavior. In 2010 jemalloc development efforts broadened to include developer support features such as heap profiling and extensive monitoring/tuning hooks. Modern jemalloc releases continue to be integrated back into FreeBSD, and therefore versatility remains critical."
 
 supported_releases:

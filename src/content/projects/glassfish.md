@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/eclipse-ee4j/glassfish/actions"
   url: "https://github.com/eclipse-ee4j/glassfish"
   project_official_url: "https://glassfish.org/"
-  logo: "/src/assets/images/content/projectLogos/glassfish.png"
+  logo: "/public/assets/projectLogos/glassfish.png"
   overview: "Eclipse GlassFish is a Jakarta EE compatible implementation sponsored by the Eclipse Foundation."
 
 supported_releases:

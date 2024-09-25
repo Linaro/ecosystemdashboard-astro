@@ -12,7 +12,7 @@ project:
   ci_url: ""
   url: "https://github.com/percona/percona-server"
   project_official_url: "https://docs.percona.com/percona-server/8.0/index.html"
-  logo: "/src/assets/images/content/projectLogos/percona_server.jpg"
+  logo: "/public/assets/projectLogos/percona_server.jpg"
   overview: "Percona Server for MySQL is a free, fully compatible, enhanced, and open source drop-in replacement for any MySQL database. It provides superior performance, scalability, and instrumentation."
 
 supported_releases:

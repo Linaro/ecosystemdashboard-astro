@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/apache/arrow/actions"
   url: "ApacheArrow"
   project_official_url: "https://arrow.apache.org/"
-  logo: "/src/assets/images/content/projectLogos/arrow.png"
+  logo: "/public/assets/projectLogos/arrow.png"
   overview: "Apache Arrow is a software development platform for building high performance applications that process and transport large data sets. It is designed to both improve the performance of analytical algorithms and the efficiency of moving data from one system or programming language to another."
 
 supported_releases:

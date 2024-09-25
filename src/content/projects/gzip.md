@@ -11,7 +11,7 @@ project:
   type: "C"
   ci_url: "http://www.gnu.org/software/gzip/"
   url: "http://www.gnu.org/software/gzip/"
-  logo: "/src/assets/images/content/projectLogos/gzip.png"
+  logo: "/public/assets/projectLogos/gzip.png"
 ---
 
 <p>Gzip</p>

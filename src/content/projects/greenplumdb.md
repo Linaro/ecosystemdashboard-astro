@@ -11,7 +11,7 @@ project:
   type: "C"
   ci_url: "https://travis-ci.com/github/greenplum-db/gpdb/pull_requests"
   url: "Greenplum"
-  logo: "/src/assets/images/content/projectLogos/greenplum.png"
+  logo: "/public/assets/projectLogos/greenplum.png"
   project_official_url: "http://greenplum.org/"
   overview: "An open-source massively parallel data platform for analytics, machine learning and AI."
 

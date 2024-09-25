@@ -11,7 +11,7 @@ project:
   type: "Java"
   url: "canal"
   project_official_url: "https://github.com/alibaba/canal/wiki"
-  logo: "/src/assets/images/content/projectLogos/canal.png"
+  logo: "/public/assets/projectLogos/canal.png"
   overview: "canal, translated as waterway, pipeline or ditch, its main purpose is to provide incremental data subscription and consumption based on MySQL database incremental log analysis."
 
 supported_releases:

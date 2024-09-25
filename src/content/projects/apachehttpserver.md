@@ -12,7 +12,7 @@ project:
   ci_url: "https://travis-ci.com/github/apache/httpd/pull_requests"
   url: "ApacheHttpServer"
   project_official_url: "https://hc.apache.org/"
-  logo: "/src/assets/images/content/projectLogos/apache.png"
+  logo: "/public/assets/projectLogos/apache.png"
   overview: "The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems including UNIX and Windows. The goal of this project is to provide a secure, efficient and extensible server that provides HTTP services in sync with the current HTTP standards."
 
 supported_releases:

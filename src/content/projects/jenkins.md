@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/jenkinsci/jenkins/actions"
   url: "https://github.com/jenkinsci/jenkins"
   project_official_url: "https://www.jenkins.io/"
-  logo: "/src/assets/images/content/projectLogos/jenkins.png"
+  logo: "/public/assets/projectLogos/jenkins.png"
   overview: "In a nutshell, Jenkins is the leading open-source automation server. Built with Java, it provides over 1,800 plugins to support automating virtually anything, so that humans can spend their time doing things machines cannot."
 
 supported_releases:

@@ -11,7 +11,7 @@ project:
   type: "go"
   ci_url: "https://www.golang.org/"
   url: "https://www.golang.org/"
-  logo: "/src/assets/images/content/projectLogos/golang.png"
+  logo: "/public/assets/projectLogos/golang.png"
   project_official_url: "https://golang.org/"
   overview: "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software."
   

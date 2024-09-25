@@ -11,7 +11,7 @@ project:
   type: "Starlark"
   url: "RabbitMQ"
   project_official_url: "https://www.rabbitmq.com"
-  logo: "/src/assets/images/content/projectLogos/rabbitmq.svg"
+  logo: "/public/assets/projectLogos/rabbitmq.svg"
   overview: "RabbitMQ is an open-source message-broker software (sometimes called message-oriented middleware) that originally implemented the Advanced Message Queuing Protocol (AMQP) and has since been extended with a plug-in architecture to support Streaming Text Oriented Messaging Protocol (STOMP), MQ Telemetry Transport (MQTT), and other protocols."
 
 supported_releases:

@@ -11,7 +11,7 @@ project:
   type: "C++"
   url: "fmt"
   project_official_url: "https://fmt.dev/latest/index.html"
-  logo: "/src/assets/images/content/projectLogos/fmt.png"
+  logo: "/public/assets/projectLogos/fmt.png"
   overview: "{fmt} is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams."
 
 supported_releases:

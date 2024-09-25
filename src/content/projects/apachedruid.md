@@ -12,7 +12,7 @@ project:
   ci_url: "https://druid.apache.org/"
   url: "Druid"
   project_official_url: "https://druid.apache.org/"
-  logo: "/src/assets/images/content/projectLogos/druid.png"
+  logo: "/public/assets/projectLogos/druid.png"
   overview: "Apache Druid is a real-time database to power modern analytics applications."
 
 supported_releases:

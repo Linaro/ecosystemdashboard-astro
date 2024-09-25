@@ -12,7 +12,7 @@ project:
   ci_url: "https://bitbucket.org/multicoreware/x265_git/"
   url: "Netty"
   project_official_url: "https://netty.io/index.html"
-  logo: "/src/assets/images/content/projectLogos/netty.png"
+  logo: "/public/assets/projectLogos/netty.png"
   overview: "Netty is a NIO client server framework which enables quick and easy development of network applications such as protocol servers and clients. It greatly simplifies and streamlines network programming such as TCP and UDP socket server."
 
 supported_releases:

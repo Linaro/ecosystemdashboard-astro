@@ -11,7 +11,7 @@ project:
   type: "Java"
   ci_url: "https://build.openlookeng.io/"
   url: "openLooKeng"
-  logo: "/src/assets/images/content/projectLogos/openlookeng.png"
+  logo: "/public/assets/projectLogos/openlookeng.png"
   project_official_url: "https://openlookeng.io/"
   overview: "openLooKeng is a drop in engine which enables in-situ analytics on any data, anywhere, including geographically remote data sources. It provides a global view of all of your data via its SQL 2003 interface. With high availability, auto-scaling, built-in caching and indexing support, openLooKeng is ready for enterprise workload with required reliability."
 

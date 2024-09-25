@@ -12,7 +12,7 @@ project:
   ci_url: "https://buildkite.com/firecracker/firecracker-ci/builds/"
   url: "Firecracker"
   project_official_url: "https://firecracker-microvm.github.io/"
-  logo: "/src/assets/images/content/projectLogos/firecracker.png"
+  logo: "/public/assets/projectLogos/firecracker.png"
   overview: "Firecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services."
 
 supported_releases:

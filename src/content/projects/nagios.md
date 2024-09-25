@@ -12,7 +12,7 @@ project:
   ci_url: "https://app.travis-ci.com/NagiosEnterprises/nagioscore"
   url: "https://github.com/NagiosEnterprises/nagioscore"
   project_official_url: "https://www.nagios.org/"
-  logo: "/src/assets/images/content/projectLogos/nagios.png"
+  logo: "/public/assets/projectLogos/nagios.png"
   overview: "Nagios is a host/service/network monitoring program written in C and released under the GNU General Public License, version 2. CGI programs are included to allow you to view the current status, history, etc via a web interface if you so desire."
 
 supported_releases:

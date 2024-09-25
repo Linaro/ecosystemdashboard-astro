@@ -11,7 +11,7 @@ project:
   type: "C++"
   ci_url: "https://xly.bce.baidu.com/paddlepaddle/Paddle-Lite/newipipe/builds/14765?module=github/PaddlePaddle/Paddle-Lite&pipeline=ARMLinux-CPU&branch=branches"
   url: "https://xly.bce.baidu.com/paddlepaddle/Paddle-Lite/newipipe/builds/14765?module=github/PaddlePaddle/Paddle-Lite&pipeline=ARMLinux-CPU&branch=branches"
-  logo: "/src/assets/images/content/projectLogos/paddle-lite.png"
+  logo: "/public/assets/projectLogos/paddle-lite.png"
 ---
 
 <p>Paddle-Lite</p>

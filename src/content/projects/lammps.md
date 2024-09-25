@@ -11,7 +11,7 @@ project:
   type: "C++"
   url: "https://github.com/lammps/lammps"
   project_official_url: "https://github.com/lammps/lammps"
-  logo: "/src/assets/images/content/projectLogos/lammps.png"
+  logo: "/public/assets/projectLogos/lammps.png"
   overview: "LAMMPS is a classical molecular dynamics simulation code designed to run efficiently on parallel computers.
   It was developed at Sandia National Laboratories, a US Department of Energy facility, with funding from the DOE.  It
   is an open-source code, distributed freely under the terms of the GNU Public License (GPL) version 2."

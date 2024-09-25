@@ -11,7 +11,7 @@ project:
   type: "JavaScript"
   ci_url: "https://nextjs.org"
   url: "https://nextjs.org"
-  logo: "/src/assets/images/content/projectLogos/next.png"
+  logo: "/public/assets/projectLogos/next.png"
 ---
 
 <p>Next.js</p>

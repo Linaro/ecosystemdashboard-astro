@@ -12,7 +12,7 @@ project:
   ci_url: "https://ubuntu.com/"
   url: "https://ubuntu.com/"
   project_official_url: "https://ubuntu.com/"
-  logo: "/src/assets/images/content/projectLogos/ubuntu.png"
+  logo: "/public/assets/projectLogos/ubuntu.png"
   overview: "Ubuntu is a Linux distribution based on Debian and composed mostly of free and open-source software."
 
 supported_releases:

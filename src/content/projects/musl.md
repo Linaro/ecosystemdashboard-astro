@@ -12,7 +12,7 @@ project:
   ci_url: "https://app.travis-ci.com/kraj/musl"
   url: "https://github.com/kraj/musl"
   project_official_url: "http://musl.libc.org/"
-  logo: "/src/assets/images/content/projectLogos/musl.png"
+  logo: "/public/assets/projectLogos/musl.png"
   overview: "Musl is an implementation of the C standard library built on top of the Linux system call API, including interfaces defined in the base language standard, POSIX, and widely agreed-upon extensions. musl is lightweight, fast, simple, free, and strives to be correct in the sense of standards-conformance and safety."
 
 supported_releases:

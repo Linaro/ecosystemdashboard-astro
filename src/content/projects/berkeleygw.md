@@ -11,7 +11,7 @@ project:
   type: "C++"
   url: "https://berkeleygw.org/"
   project_official_url: "https://gitlab.com/mbarbry/berkeley-gw"
-  logo: "/src/assets/images/content/projectLogos/berkeleygw.png"
+  logo: "/public/assets/projectLogos/berkeleygw.png"
   overview: "BerkeleyGW is a many-body perturbation theory code for excited states, using the GW method and the GW plus Bethe-Salpeter equation (GW-BSE) method to solve respectively for quasiparticle excitations and optical properties of materials."
 
 supported_releases:

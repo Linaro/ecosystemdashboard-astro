@@ -11,7 +11,7 @@ project:
   type: "TypeScript"
   ci_url: "https://www.typescriptlang.org/"
   url: "https://www.typescriptlang.org/"
-  logo: "/src/assets/images/content/projectLogos/typescript.png"
+  logo: "/public/assets/projectLogos/typescript.png"
 ---
 
 <p>TypeScript</p>

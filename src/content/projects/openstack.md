@@ -12,7 +12,7 @@ project:
   ci_url: "https://zuul.opendev.org/t/openstack/status"
   url: "OpenStack"
   project_official_url: "https://www.openstack.org/"
-  logo: "/src/assets/images/content/projectLogos/openstack.png"
+  logo: "/public/assets/projectLogos/openstack.png"
   overview: "OpenStack is a cloud operating system that controls large pools of compute, storage, and networking resources throughout a datacenter, all managed and provisioned through APIs with common authentication mechanisms. Beyond standard infrastructure-as-a-service functionality, additional components provide orchestration, fault management and service management amongst other services to ensure high availability of user applications."
 
 supported_releases:

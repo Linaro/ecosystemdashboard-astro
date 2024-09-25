@@ -12,7 +12,7 @@ project:
   ci_url: "https://travis-ci.com/github/apache/httpcomponents-core"
   url: "ApacheHttpComponents"
   project_official_url: "https://hc.apache.org/"
-  logo: "/src/assets/images/content/projectLogos/httpcomponents-core.png"
+  logo: "/public/assets/projectLogos/httpcomponents-core.png"
   overview: "The Apache HttpComponents project is responsible for creating and maintaining a toolset of low level Java components focused on HTTP and associated protocols."
 
 supported_releases:

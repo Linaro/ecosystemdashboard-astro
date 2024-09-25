@@ -11,7 +11,7 @@ project:
   type: "Erlang"
   ci_url: "https://www.erlang.org/"
   url: "https://www.erlang.org/"
-  logo: "/src/assets/images/content/projectLogos/erlang.jpg"
+  logo: "/public/assets/projectLogos/erlang.jpg"
 ---
 
 <p>Erlang</p>

@@ -10,7 +10,7 @@ project:
   title: "Gazelle"
   type: "C"
   url: "Gazelle"
-  logo: "/src/assets/images/content/projectLogos/gazelle.png"
+  logo: "/public/assets/projectLogos/gazelle.png"
   overview: "Gazelle is a high-performance user-space protocol stack based on DPDK + Lwip. Leveraging DPDK's high-performance packet processing and Gazelle's efforts in scheduling, protocol stack threading, and other aspects, Gazelle exhibits strong competitiveness in latency, throughput, and other aspects. Currently, it enjoys widespread usage in scenarios such as finance and storage."
 
 supported_releases:

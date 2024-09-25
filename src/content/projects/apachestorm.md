@@ -10,7 +10,7 @@ project:
   title: "Apache Storm"
   type: "Java"
   ci_url: "http://status.openlabtesting.org/project/github.com/apache/storm"
-  logo: "/src/assets/images/content/projectLogos/storm.png"
+  logo: "/public/assets/projectLogos/storm.png"
   url: "ApacheStorm"
   project_official_url: "http://storm.apache.org/"
   overview: "Apache Storm is a free and open source distributed realtime computation system. Apache Storm makes it easy to reliably process unbounded streams of data, doing for realtime processing what Hadoop did for batch processing. Apache Storm is simple, can be used with any programming language, and is a lot of fun to use!"

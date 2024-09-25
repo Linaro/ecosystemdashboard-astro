@@ -12,7 +12,7 @@ project:
   ci_url: "https://ci-next.docker.com/public/blue/organizations/jenkins/moby/activity"
   url: "https://github.com/wildfly/wildfly"
   project_official_url: "https://www.jboss.org/"
-  logo: "/src/assets/images/content/projectLogos/wildfly.png"
+  logo: "/public/assets/projectLogos/wildfly.png"
   overview: "WildFly is a powerful, modular, & lightweight application server that helps you build amazing applications."
 
 supported_releases:

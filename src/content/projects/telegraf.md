@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/influxdata/telegraf/actions"
   url: "Telegraf"
   project_official_url: "https://www.influxdata.com/time-series-platform/telegraf/"
-  logo: "/src/assets/images/content/projectLogos/telegraf.png"
+  logo: "/public/assets/projectLogos/telegraf.png"
   overview: "Telegraf is an agent for collecting, processing, aggregating, and writing metrics. Based on a plugin system to enable developers in the community to easily add support for additional metric collection. There are four distinct types of plugins: 1) Input Plugins collect metrics from the system, services, or 3rd party APIs. 2) Processor Plugins transform, decorate, and/or filter metrics. 3) Aggregator Plugins create aggregate metrics (e.g. mean, min, max, quantiles, etc.) 4) Output Plugins write metrics to various destinations. New plugins are designed to be easy to contribute, pull requests are welcomed, and we work to incorporate as many pull requests as possible. Consider looking at the list of external plugins as well."
 
 supported_releases:

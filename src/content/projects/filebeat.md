@@ -11,7 +11,7 @@ project:
   type: "Go"
   url: "Filebeat"
   project_official_url: "https://www.elastic.co/cn/beats/filebeat"
-  logo: "/src/assets/images/content/projectLogos/filebeat.png"
+  logo: "/public/assets/projectLogos/filebeat.png"
   overview: "Filebeat is a lightweight shipper for forwarding and centralizing log data. Installed as an agent on your servers, Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing."
 
 supported_releases:

@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "https://github.com/lh3/psmc"
   project_official_url: "https://github.com/lh3/psmc"
-  logo: "/src/assets/images/content/projectLogos/psmc.png"
+  logo: "/public/assets/projectLogos/psmc.png"
   overview: "Implementation of the Pairwise Sequentially Markovian Coalescent (PSMC) model"
 
 supported_releases:
