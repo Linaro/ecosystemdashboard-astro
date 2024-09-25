@@ -10,7 +10,7 @@ project:
   title: "Kibana"
   type: "Java"
   ci_url: "https://www.elastic.co/downloads/kibana"
-  logo: "/public/assets/projectLogos/kibana.png"
+  logo: "/assets/projectLogos/kibana.png"
   url: "Kibana"
   project_official_url: "http://elastic.co/downloads/kibana"
   overview: "Kibana is your window into the Elastic Stack. Specifically, it's a browser-based analytics and search dashboard for Elasticsearch."

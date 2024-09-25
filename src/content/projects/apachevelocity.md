@@ -12,7 +12,7 @@ project:
   ci_url: "https://travis-ci.com/github/apache/velocity-engine"
   url: "ApacheVelocity"
   project_official_url: "https://velocity.apache.org/"
-  logo: "/public/assets/projectLogos/velocity.png"
+  logo: "/assets/projectLogos/velocity.png"
   overview: "Velocity is a Java-based template engine. It permits anyone to use a simple yet powerful template language to reference objects defined in Java code."
 
 supported_releases:

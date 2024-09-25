@@ -12,7 +12,7 @@ project:
   ci_url: "https://ci.spring.io/teams/spring-framework/pipelines/spring-framework-6.0.x?groups=Build%22"
   url: "https://github.com/spring-projects/spring-framework"
   project_official_url: "https://spring.io/projects/spring-framework"
-  logo: "/public/assets/projectLogos/springframework.png"
+  logo: "/assets/projectLogos/springframework.png"
   overview: "The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform."
 
 supported_releases:

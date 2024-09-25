@@ -11,7 +11,7 @@ project:
   type: "Java"
   ci_url: "http://status.openlabtesting.org/project/github.com/apache/kudu"
   url: "ApacheKudu"
-  logo: "/public/assets/projectLogos/kudu.png"
+  logo: "/assets/projectLogos/kudu.png"
   project_official_url: "https://kudu.apache.org/"
   overview: "Apache Kudu is an open source distributed data storage engine that makes fast analytics on fast and changing data easy."
 

@@ -12,7 +12,7 @@ project:
   ci_url: "https://ci.appveyor.com/project/zdenop/tesseract/"
   url: "Tesseract"
   project_official_url: "https://github.com/tesseract-ocr/tesseract"
-  logo: "/public/assets/projectLogos/tesseract.png"
+  logo: "/assets/projectLogos/tesseract.png"
   overview: "Tesseract is an optical character recognition engine for various operating systems.It is free software, released under the Apache License. Originally developed by Hewlett-Packard as proprietary software in the 1980s, it was released as open source in 2005 and development has been sponsored by Google since 2006. Tesseract was in the top three OCR engines in terms of character accuracy in 1995. It is available for Linux, Windows and Mac OS X. Tesseract up to and including version 2 could only accept TIFF images of simple one-column text as inputs. These early versions did not include layout analysis, and so inputting multi-columned text, images, or equations produced garbled output. Since version 3.00 Tesseract has supported output text formatting, hOCR positional information and page-layout analysis. Support for a number of new image formats was added using the Leptonica library. Tesseract can detect whether text is monospaced or proportionally spaced."
 
 supported_releases:

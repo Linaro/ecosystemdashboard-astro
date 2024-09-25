@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "Libconfig"
   project_official_url: "https://hyperrealm.github.io/libconfig/"
-  logo: "/public/assets/projectLogos/libconfig.png"
+  logo: "/assets/projectLogos/libconfig.png"
   overview: "Libconfig is a simple library for processing structured configuration files, like this one. This file format is more compact and more readable than XML. And unlike XML, it is type-aware, so it is not necessary to do string parsing in application code."
 
 supported_releases:

@@ -11,7 +11,7 @@ project:
   type: "Java"
   url: "otter"
   project_official_url: "https://github.com/alibaba/otter/wiki"
-  logo: "/public/assets/projectLogos/otter.png"
+  logo: "/assets/projectLogos/otter.png"
   overview: "Based on database incremental log analysis, quasi-real-time synchronization to the mysql/oracle database in the local computer room or remote computer room. A comprehensive database synchronization system."
 
 supported_releases:

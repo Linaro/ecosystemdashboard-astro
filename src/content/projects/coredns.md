@@ -10,7 +10,7 @@ project:
   title: "CoreDNS"
   type: "Go"
   url: "CoreDNS"
-  logo: "/public/assets/projectLogos/coredns.png"
+  logo: "/assets/projectLogos/coredns.png"
   overview: "CoreDNS is a DNS server. It is written in Go. It can be used in a multitude of environments because of its flexibility. CoreDNS is licensed under the Apache License Version 2, and completely open source."
 
 supported_releases:

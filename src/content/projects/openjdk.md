@@ -11,7 +11,7 @@ project:
   type: "Java"
   ci_url: "https://openjdk.java.net/"
   url: "https://openjdk.java.net/"
-  logo: "/public/assets/projectLogos/openjdk.png"
+  logo: "/assets/projectLogos/openjdk.png"
 ---
 
 <p>openJDK</p>

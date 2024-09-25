@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/flannel-io/flannel/actions"
   url: "Flannel"
   project_official_url: "https://github.com/flannel-io/flannel"
-  logo: "/public/assets/projectLogos/flannel.png"
+  logo: "/assets/projectLogos/flannel.png"
   overview: "Flannel is a simple and easy way to configure a layer 3 network fabric designed for Kubernetes."
 
 supported_releases:

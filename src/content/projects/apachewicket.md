@@ -12,7 +12,7 @@ project:
   ci_url: "https://travis-ci.com/github/apache/wicket"
   url: "ApacheWicket"
   project_official_url: "https://wicket.apache.org/"
-  logo: "/public/assets/projectLogos/wicket.png"
+  logo: "/assets/projectLogos/wicket.png"
   overview: "Apache Wicket is a component-based web application framework for the Java programming language conceptually similar to JavaServer Faces and Tapestry. It was originally written by Jonathan Locke in April 2004. Version 1.0 was released in June 2005. It graduated into an Apache top-level project in June 2007."
 
 supported_releases:

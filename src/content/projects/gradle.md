@@ -11,7 +11,7 @@ project:
   type: "Java, Groovy"
   ci_url: "https://gradle.org/"
   url: "https://gradle.org/"
-  logo: "/public/assets/projectLogos/gradle.png"
+  logo: "/assets/projectLogos/gradle.png"
 ---
 
 <p>Gradle</p>

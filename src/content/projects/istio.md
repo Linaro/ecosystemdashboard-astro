@@ -12,7 +12,7 @@ project:
   ci_url: "https://prow.istio.io/"
   url: "Istio"
   project_official_url: "https://istio.io/"
-  logo: "/public/assets/projectLogos/istio.png"
+  logo: "/assets/projectLogos/istio.png"
   overview: "Istio extends Kubernetes to establish a programmable, application-aware network using the powerful Envoy service proxy. Working with both Kubernetes and traditional workloads, Istio brings standard, universal traffic management, telemetry, and security to complex deployments."
 
 supported_releases:

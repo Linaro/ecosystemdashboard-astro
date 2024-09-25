@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/crow-misia/libyuv-android/actions/workflows/android.yml"
   url: "https://github.com/crow-misia/libyuv-android"
   project_official_url: "https://github.com/crow-misia/libyuv-android"
-  logo: "/public/assets/projectLogos/libyuvandroid.png"
+  logo: "/assets/projectLogos/libyuvandroid.png"
   overview: "LibYUV for Android"
 ---
 

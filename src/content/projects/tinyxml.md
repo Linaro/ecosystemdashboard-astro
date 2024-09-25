@@ -11,7 +11,7 @@ project:
   type: "C++"
   url: "TinyXML2"
   project_official_url: "http://leethomason.github.io/tinyxml2/"
-  logo: "/public/assets/projectLogos/tinyxml.png"
+  logo: "/assets/projectLogos/tinyxml.png"
   overview: "TinyXML2 is a simple, small, efficient, C++ XML parser that can be easily integrated into other programs."
 
 supported_releases:

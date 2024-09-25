@@ -12,7 +12,7 @@ project:
   ci_url: "https://dev.azure.com/apache-flink/apache-flink/_build?definitionId=2"
   url: "ApacheFlink"
   project_official_url: "https://flink.apache.org/"
-  logo: "/public/assets/projectLogos/flink.png"
+  logo: "/assets/projectLogos/flink.png"
   overview: "Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. Flink has been designed to run in all common cluster environments, perform computations at in-memory speed and at any scale."
 
 supported_releases:

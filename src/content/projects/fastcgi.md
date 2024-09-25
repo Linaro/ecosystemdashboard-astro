@@ -12,7 +12,7 @@ project:
   ci_url: ""
   url: "https://github.com/FastCGI-Archives/fcgi2"
   project_official_url: "https://fastcgi-archives.github.io/fcgi2/doc/overview.html"
-  logo: "/public/assets/projectLogos/fastcgi.jpeg"
+  logo: "/assets/projectLogos/fastcgi.jpeg"
   overview: "FastCGI is a fast, open, and secure Web server interface that solves the performance problems inherent in CGI, without introducing the overhead and complexity of proprietary APIs (Application Programming Interfaces)."
 
 supported_releases:

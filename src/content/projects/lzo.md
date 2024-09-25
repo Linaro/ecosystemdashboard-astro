@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "LZO"
   project_official_url: "http://www.oberhumer.com/opensource/lzo/"
-  logo: "/public/assets/projectLogos/lzo.png"
+  logo: "/assets/projectLogos/lzo.png"
   overview: "LZO is a portable lossless data compression library written in ANSI C."
 
 supported_releases:

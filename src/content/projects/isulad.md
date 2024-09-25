@@ -11,7 +11,7 @@ project:
   type: "C"
   ci_url: "http://114.116.250.98/job/iSula-Build/"
   url: "http://114.116.250.98/job/iSula-Build/"
-  logo: "/public/assets/projectLogos/isulad.png"
+  logo: "/assets/projectLogos/isulad.png"
 ---
 
 <p>iSulad</p>

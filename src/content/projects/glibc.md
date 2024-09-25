@@ -12,7 +12,7 @@ project:
   ci_url: "http://www.gnu.org/software/libc/"
   url: "http://www.gnu.org/software/libc/"
   project_official_url: "http://www.gnu.org/software/libc/"
-  logo: "/public/assets/projectLogos/glibc.png"
+  logo: "/assets/projectLogos/glibc.png"
   overview: "The GNU C Library project provides the core libraries for the GNU system and GNU/Linux systems, as well as many other systems that use Linux as the kernel."
 
 supported_releases:

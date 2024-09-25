@@ -11,7 +11,7 @@ project:
   type: "C"
   ci_url: "http://www.gnu.org/software/gcc/"
   url: "http://www.gnu.org/software/gcc/"
-  logo: "/public/assets/projectLogos/gcc.png"
+  logo: "/assets/projectLogos/gcc.png"
 ---
 
 <p>GNU C Compiler (GCC)</p>

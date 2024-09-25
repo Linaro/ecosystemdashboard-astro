@@ -12,7 +12,7 @@ project:
   ci_url: "https://developers.google.com/protocol-buffers/"
   url: "Protobuf"
   project_official_url: "https://developers.google.com/protocol-buffers/"
-  logo: "/public/assets/projectLogos/protobuf.png"
+  logo: "/assets/projectLogos/protobuf.png"
   overview: "Protocol buffers are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data – think XML, but smaller, faster, and simpler."
 
 supported_releases:

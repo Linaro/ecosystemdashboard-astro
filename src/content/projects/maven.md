@@ -11,7 +11,7 @@ project:
   type: "Java"
   ci_url: "https://maven.apache.org/"
   url: "https://maven.apache.org/"
-  logo: "/public/assets/projectLogos/maven.png"
+  logo: "/assets/projectLogos/maven.png"
 ---
 
 <p>Apache Maven</p>

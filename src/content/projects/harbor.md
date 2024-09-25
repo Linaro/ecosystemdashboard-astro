@@ -9,7 +9,7 @@ meta:
 project:
   title: "Harbor"
   type: "Go"
-  logo: "/public/assets/projectLogos/harbor.png"
+  logo: "/assets/projectLogos/harbor.png"
   url: "Harbor"
   ci_url: "https://github.com/goharbor/harbor/actions?query=event%3Apush+branch%3Amain+workflow%3ACI+"
   project_official_url: "https://goharbor.io"

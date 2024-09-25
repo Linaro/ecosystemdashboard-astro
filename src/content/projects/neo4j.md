@@ -12,7 +12,7 @@ project:
   ci_url: ""
   url: "https://github.com/neo4j/neo4j"
   project_official_url: "https://neo4j.com/"
-  logo: "/public/assets/projectLogos/neo4j.png"
+  logo: "/assets/projectLogos/neo4j.png"
   overview: "Neo4j is the world's leading Graph Database. It is a high performance graph store with all the features expected of a mature and robust database, like a friendly query language and ACID transactions. The programmer works with a flexible network structure of nodes and relationships rather than static tables - yet enjoys all the benefits of enterprise-quality database. For many applications, Neo4j offers orders of magnitude performance benefits compared to relational DBs."
 
 supported_releases:

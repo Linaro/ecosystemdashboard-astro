@@ -11,7 +11,7 @@ project:
   type: "Java"
   url: "Bcrypt"
   project_official_url: "https://github.com/patrickfav/bcrypt"
-  logo: "/public/assets/projectLogos/bcrypt.png"
+  logo: "/assets/projectLogos/bcrypt.png"
   overview: "This is an implementation of the OpenBSD Blowfish password hashing algorithm, as described in A Future-Adaptable Password Scheme by Niels Provos and David Mazieres. It's core is based on jBcrypt, but heavily refactored, modernized and with a lot of updates and enhancements. It supports all common versions, has a security sensitive API and is fully tested against a range of test vectors and reference implementations."
 
 supported_releases:

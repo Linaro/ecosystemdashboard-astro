@@ -11,7 +11,7 @@ project:
   type: "C++"
   url: "https://github.com/kunpengcompute/KAE"
   project_official_url: "https://github.com/kunpengcompute/KAE"
-  logo: "/public/assets/projectLogos/kae.png"
+  logo: "/assets/projectLogos/kae.png"
   overview: "Kunpeng Zlib Acceleration Engine is used to build performance competitiveness of common software libraries on the Kunpeng platform."
 
 supported_releases:

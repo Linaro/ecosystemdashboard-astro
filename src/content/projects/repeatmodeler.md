@@ -11,7 +11,7 @@ project:
   type: "Perl"
   url: "https://github.com/Dfam-consortium/RepeatModeler"
   project_official_url: "https://github.com/Dfam-consortium/RepeatModeler"
-  logo: "/public/assets/projectLogos/repeatmodeler.png"
+  logo: "/assets/projectLogos/repeatmodeler.png"
   overview: "RepeatModeler is a de novo transposable element (TE) family identification and modeling package. At the heart of RepeatModeler are three de-novo repeat finding programs ( RECON, RepeatScout and LtrHarvest/Ltr_retriever ) which employ complementary computational methods for identifying repeat element boundaries and family relationships from sequence data."
 
 supported_releases:

@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "https://github.com/fenderglass/Flye"
   project_official_url: "https://github.com/fenderglass/Flye"
-  logo: "/public/assets/projectLogos/flye.png"
+  logo: "/assets/projectLogos/flye.png"
   overview: "Flye is a de novo assembler for single-molecule sequencing reads, such as those produced by PacBio and Oxford Nanopore Technologies. It is designed for a wide range of datasets, from small bacterial projects to large mammalian-scale assemblies."
 
 supported_releases:

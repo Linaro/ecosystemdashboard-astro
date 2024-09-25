@@ -11,7 +11,7 @@ project:
   type: "C++"
   url: "https://github.com/Gabaldonlab/redundans/"
   project_official_url: "https://github.com/Gabaldonlab/redundans/"
-  logo: "/public/assets/projectLogos/redundans.png"
+  logo: "/assets/projectLogos/redundans.png"
   overview: "Redundans is a pipeline that assists an assembly of heterozygous/polymorphic genomes."
 
 supported_releases:

@@ -11,7 +11,7 @@ project:
   type: "R"
   url: "Shiny"
   project_official_url: "https://shiny.posit.co"
-  logo: "/public/assets/projectLogos/shiny.png"
+  logo: "/assets/projectLogos/shiny.png"
   overview: "Easily build rich and productive interactive web apps in R — no HTML/CSS/JavaScript required."
 
 supported_releases:

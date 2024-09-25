@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/envoyproxy/envoy/actions"
   url: "Containerd"
   project_official_url: "https://www.envoyproxy.io/"
-  logo: "/public/assets/projectLogos/envoy.png"
+  logo: "/assets/projectLogos/envoy.png"
   overview: "Envoy is an open source edge and service proxy, disigned for cloud native applications."
 
 supported_releases:

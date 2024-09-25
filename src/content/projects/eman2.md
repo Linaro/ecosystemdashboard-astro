@@ -11,7 +11,7 @@ project:
   type: "Python"
   url: "https://github.com/cryoem/eman2"
   project_official_url: "http://eman2.org"
-  logo: "/public/assets/projectLogos/eman2.png"
+  logo: "/assets/projectLogos/eman2.png"
   overview: "EMAN2 is now built within Anaconda, trying to compile using system dependencies (without Anaconda) may be possible, but is not supported."
 
 supported_releases:

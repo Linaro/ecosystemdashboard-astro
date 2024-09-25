@@ -11,7 +11,7 @@ project:
   type: "C"
   ci_url: "https://github.com/libevent/libevent"
   url: "https://github.com/libevent/libevent"
-  logo: "/public/assets/projectLogos/libevent.png"
+  logo: "/assets/projectLogos/libevent.png"
 ---
 
 <p>Libevent</p>

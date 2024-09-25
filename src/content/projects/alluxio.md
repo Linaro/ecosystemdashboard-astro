@@ -11,7 +11,7 @@ project:
   type: "Java"
   url: "https://github.com/Alluxio/alluxio"
   project_official_url: "https://github.com/Alluxio/alluxio"
-  logo: "/public/assets/projectLogos/alluxio.png"
+  logo: "/assets/projectLogos/alluxio.png"
   overview: "Alluxio (formerly known as Tachyon) is a virtual distributed storage system. It bridges the gap between computation frameworks and storage systems, enabling computation applications to connect to numerous storage systems through a common interface."
 
 supported_releases:

@@ -12,7 +12,7 @@ project:
   ci_url: "https://travis-ci.org/github/osixia/docker-keepalived/"
   url: "Keepalived"
   project_official_url: "https://www.keepalived.org"
-  logo: "/public/assets/projectLogos/keepalived.png"
+  logo: "/assets/projectLogos/keepalived.png"
   overview: "Keepalived is a routing software written in C. The main goal of this project is to provide simple and robust facilities for loadbalancing and high-availability to Linux system and Linux based infrastructures."
 
 supported_releases:

@@ -12,7 +12,7 @@ project:
   ci_url: "https://pullrequest.opencv.org/buildbot/waterfall?tag=arm"
   url: "https://opencv.org/"
   project_official_url: "https://opencv.org/"
-  logo: "/public/assets/projectLogos/opencv.png"
+  logo: "/assets/projectLogos/opencv.png"
   overview: "OpenCV (Open Source Computer Vision Library) is an open-source library that includes several hundreds of computer vision algorithms."
 
 supported_releases:

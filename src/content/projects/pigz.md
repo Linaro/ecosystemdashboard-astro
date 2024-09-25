@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "pigz"
   project_official_url: "https://zlib.net/pigz/"
-  logo: "/public/assets/projectLogos/pigz.png"
+  logo: "/assets/projectLogos/pigz.png"
   overview: "pigz, which stands for Parallel Implementation of GZip, is a fully functional replacement for gzip that exploits multiple processors and multiple cores to the hilt when compressing data.
 pigz was written by Mark Adler and does not include third-party code. I am making my contributions to and distributions of this project solely in my personal capacity, and am not conveying any rights to any intellectual property of any third parties."
 

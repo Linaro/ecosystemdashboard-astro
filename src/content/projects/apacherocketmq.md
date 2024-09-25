@@ -12,7 +12,7 @@ project:
   ci_url: "https://travis-ci.org/github/apache/rocketmq"
   url: "ApacheRocketMQ"
   project_official_url: "https://rocketmq.apache.org/"
-  logo: "/public/assets/projectLogos/rocketmq.jpg"
+  logo: "/assets/projectLogos/rocketmq.jpg"
   overview: "Apache RocketMQ™ is a unified messaging engine, lightweight data processing platform."
 
 supported_releases:

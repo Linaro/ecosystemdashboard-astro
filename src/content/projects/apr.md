@@ -12,7 +12,7 @@ project:
   ci_url: "http://apr.apache.org/"
   url: "http://apr.apache.org/"
   project_official_url: "http://apr.apache.org/"
-  logo: "/public/assets/projectLogos/apr.png"
+  logo: "/assets/projectLogos/apr.png"
 ---
 
 <p>APR</p>

@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/Automattic/mongoose/actions"
   url: "https://github.com/Automattic/mongoose"
   project_official_url: "https://mongoosejs.com/"
-  logo: "/public/assets/projectLogos/mongoose.png"
+  logo: "/assets/projectLogos/mongoose.png"
   overview: "Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports Node.js and Deno (alpha)."
 
 supported_releases:

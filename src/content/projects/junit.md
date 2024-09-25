@@ -11,7 +11,7 @@ project:
   type: "Java"
   ci_url: "https://junit.org/junit5/"
   url: "https://junit.org/junit5/"
-  logo: "/public/assets/projectLogos/junit.png"
+  logo: "/assets/projectLogos/junit.png"
 ---
 
 <p>JUnit</p>

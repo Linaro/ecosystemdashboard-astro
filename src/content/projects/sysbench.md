@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "https://github.com/akopytov/sysbench"
   project_official_url: "https://github.com/akopytov/sysbench"
-  logo: "/public/assets/projectLogos/sysbench.png"
+  logo: "/assets/projectLogos/sysbench.png"
   overview: "sysbench is a scriptable multi-threaded benchmark tool based on LuaJIT. It is most frequently used for database benchmarks, but can also be used to create arbitrarily complex workloads that do not involve a database server."
 
 supported_releases:

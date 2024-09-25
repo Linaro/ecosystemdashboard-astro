@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "Guacamole"
   project_official_url: "https://guacamole.apache.org"
-  logo: "/public/assets/projectLogos/guacamole.png"
+  logo: "/assets/projectLogos/guacamole.png"
   overview: "Apache Guacamole is a clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH."
 
 supported_releases:

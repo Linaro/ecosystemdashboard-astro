@@ -9,7 +9,7 @@ meta:
 project:
   title: "Atlas"
   type: "Java"
-  logo: "/public/assets/projectLogos/atlas.png"
+  logo: "/assets/projectLogos/atlas.png"
   url: "Atlas"
   project_official_url: "https://github.com/topics/atlas"
   overview: "Apache Atlas framework is an extensible set of core foundational governance services –enabling enterprises to effectively and efficiently meet their compliance requirements within Hadoop and allows integration with the whole enterprise data ecosystem."

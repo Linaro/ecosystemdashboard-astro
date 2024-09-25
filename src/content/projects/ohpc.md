@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "http://openhpc.community/"
   project_official_url: "https://github.com/openhpc/ohpc"
-  logo: "/public/assets/projectLogos/ohpc.png"
+  logo: "/assets/projectLogos/ohpc.png"
   overview: "This stack provides a variety of common, pre-built ingredients required to deploy and manage an HPC Linux cluster including provisioning tools, resource management, I/O clients, runtimes, development tools, containers, and a variety of scientific libraries."
 
 supported_releases:

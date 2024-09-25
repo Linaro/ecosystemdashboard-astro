@@ -11,7 +11,7 @@ project:
   type: "Fortran"
   url: "https://www.yambo-code.eu/"
   project_official_url: "https://github.com/yambo-code/yambo"
-  logo: "/public/assets/projectLogos/yambo.png"
+  logo: "/assets/projectLogos/yambo.png"
   overview: "YAMBO is an open-source code released within the GPL licence implementing first-principles methods based on Green’s function theory to describe excited-state properties of realistic materials.These methods include the GW approximation, the Bethe-Salpeter equation (BSE), electron-phonon interaction and non-equilibrium Green’s function theory (NEGF)."
 
 supported_releases:

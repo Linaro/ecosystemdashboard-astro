@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "https://github.com/bkehr/popins"
   project_official_url: "https://github.com/bkehr/popins"
-  logo: "/public/assets/projectLogos/popins.png"
+  logo: "/assets/projectLogos/popins.png"
   overview: "Population-scale detection of novel-sequence insertions."
 
 supported_releases:

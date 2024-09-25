@@ -12,7 +12,7 @@ project:
   ci_url: "https://www.mongodb.com/"
   url: "MongoDB"
   project_official_url: "https://www.mongodb.com/"
-  logo: "/public/assets/projectLogos/mongodb.png"
+  logo: "/assets/projectLogos/mongodb.png"
   overview: "The Community version of our distributed database offers a flexible document data model along with support for ad-hoc queries, secondary indexing, and real-time aggregations to provide powerful ways to access and analyze your data."
 
 supported_releases:

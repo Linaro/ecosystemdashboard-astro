@@ -12,7 +12,7 @@ project:
   ci_url: "https://ci-hadoop.apache.org/view/Hadoop/job/hadoop-qbt-linux-ARM-trunk/"
   url: "ClickHouse"
   project_official_url: "https://clickhouse.com/"
-  logo: "/public/assets/projectLogos/clickhouse.png"
+  logo: "/assets/projectLogos/clickhouse.png"
   overview: "ClickHouse® is an open-source, high performance columnar OLAP database management system for real-time analytics using SQL."
 
 supported_releases:

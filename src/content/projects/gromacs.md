@@ -11,7 +11,7 @@ project:
   type: "C++"
   url: "https://gitlab.com/gromacs/gromacs"
   project_official_url: "https://www.gromacs.org/"
-  logo: "/public/assets/projectLogos/gromacs.png"
+  logo: "/assets/projectLogos/gromacs.png"
   overview: "GROMACS is free software, distributed under the GNU Lesser General Public License, version 2.1 However, scientific software is a little special compared to most other programs. Both you, we, and all other GROMACS users depend on the quality of the code, and when we find bugs (every piece of software has them) it is crucial that we can correct it and say that it was fixed in version X of the file or package release. For the same reason, it is important that you can reproduce other people's result from a certain GROMACS version."
 
 supported_releases:

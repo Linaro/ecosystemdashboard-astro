@@ -11,7 +11,7 @@ project:
   type: "Java"
   url: "JBoss"
   project_official_url: "https://www.jboss.org"
-  logo: "/public/assets/projectLogos/jboss.png"
+  logo: "/assets/projectLogos/jboss.png"
   overview: "JBoss is an application server written by JBoss, now developed by Red Hat. JBoss is written in Java and implements the Java Platform, Enterprise Edition (Java EE) specification. It runs on multiple platforms."
 
 events:

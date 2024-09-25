@@ -12,7 +12,7 @@ project:
   ci_url: "https://ci-hadoop.apache.org/view/Hadoop/job/Hive-trunk-linux-ARM/"
   url: "ApacheHive"
   project_official_url: "http://hive.apache.org/"
-  logo: "/public/assets/projectLogos/hive.png"
+  logo: "/assets/projectLogos/hive.png"
   overview: "The Apache Hive ™ data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL. Structure can be projected onto data already in storage. A command line tool and JDBC driver are provided to connect users to Hive."
 
 project_ci:

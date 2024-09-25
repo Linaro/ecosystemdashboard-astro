@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/openzfs/zfs/actions"
   url: "https://github.com/openzfs/zfs"
   project_official_url: "https://openzfs.github.io/openzfs-docs/"
-  logo: "/public/assets/projectLogos/zfs.png"
+  logo: "/assets/projectLogos/zfs.png"
   overview: "OpenZFS is an advanced file system and volume manager which was originally developed for Solaris and is now maintained by the OpenZFS community. This repository contains the code for running OpenZFS on Linux and FreeBSD."
 
 supported_releases:

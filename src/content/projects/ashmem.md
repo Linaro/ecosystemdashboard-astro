@@ -9,7 +9,7 @@ meta:
 project:
   title: "Ashmem"
   type: "C,Java"
-  logo: "/public/assets/projectLogos/ashmem.png"
+  logo: "/assets/projectLogos/ashmem.png"
   url: "Ashmem"
   project_official_url: "https://developer.android.com/reference/android/os/SharedMemory"
   overview: "Android Shared Memory(Ashmen) is a mechanism for inter-process communication (IPC) in the Android system. It allows different applications or processes to share a region of memory to efficiently exchange data."

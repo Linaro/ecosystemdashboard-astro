@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "https://github.com/EddyRivasLab/hmmer"
   project_official_url: "http://hmmer.org/"
-  logo: "/public/assets/projectLogos/hmmer.png"
+  logo: "/assets/projectLogos/hmmer.png"
   overview: "HMMER searches biological sequence databases for homologous sequences, using either single sequences or multiple sequence alignments as queries. HMMER implements a technology called 'profile hidden Markov models' (profile HMMs). HMMER is used by many protein family domain databases and large-scale annotation pipelines, including Pfam and other members of the InterPro Consortium."
 
 supported_releases:

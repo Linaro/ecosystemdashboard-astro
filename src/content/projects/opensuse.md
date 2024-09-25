@@ -12,7 +12,7 @@ project:
   ci_url: "https://www.opensuse.org/"
   url: "https://www.opensuse.org/"
   project_official_url: "https://www.opensuse.org/"
-  logo: "/public/assets/projectLogos/opensuse.png"
+  logo: "/assets/projectLogos/opensuse.png"
   overview: "openSUSE is a free and open source RPM-based Linux distribution developed by the openSUSE project."
 
 supported_releases:

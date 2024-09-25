@@ -11,7 +11,7 @@ project:
   type: "Scala"
   ci_url: "https://www.scala-lang.org/"
   url: "https://www.scala-lang.org/"
-  logo: "/public/assets/projectLogos/scala.png"
+  logo: "/assets/projectLogos/scala.png"
 ---
 
 <p>Scala</p>

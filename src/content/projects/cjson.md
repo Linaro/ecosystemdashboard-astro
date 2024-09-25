@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "https://github.com/DaveGamble/cJSON"
   project_official_url: "https://github.com/DaveGamble/cJSON"
-  logo: "/public/assets/projectLogos/cjson.png"
+  logo: "/assets/projectLogos/cjson.png"
   overview: "cJSON aims to be the dumbest possible parser that you can get your job done with. It's a single file of C, and a single header file."
 
 supported_releases:

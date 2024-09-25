@@ -11,7 +11,7 @@ project:
   type: "Fortran"
   url: "https://gitlab.com/QEF/q-e"
   project_official_url: "https://gitlab.com/QEF/q-e"
-  logo: "/public/assets/projectLogos/quantumespresso.png"
+  logo: "/assets/projectLogos/quantumespresso.png"
   overview: "Quantum ESPRESSO is a suite for first-principles electronic-structure calculations and materials modeling, distributed for free and as free software under the GNU General Public License."
 
 supported_releases:

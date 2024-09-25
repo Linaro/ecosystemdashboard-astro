@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "Tengine"
   project_official_url: "https://tengine.taobao.com"
-  logo: "/public/assets/projectLogos/tengine.png"
+  logo: "/assets/projectLogos/tengine.png"
   overview: "Tengine is a web server originated by Taobao, the largest e-commerce website in Asia. It is based on the Nginx HTTP server and has many advanced features."
 
 supported_releases:

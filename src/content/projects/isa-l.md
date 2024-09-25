@@ -11,7 +11,7 @@ project:
   type: "C"
   ci_url: "https://travis-ci.org/github/intel/isa-l"
   url: "https://travis-ci.org/github/intel/isa-l"
-  logo: "/public/assets/projectLogos/isa-l.jpg"
+  logo: "/assets/projectLogos/isa-l.jpg"
   overview: "ISA-L is a collection of optimized low-level functions targeting storage applications."
 
 project_ci:

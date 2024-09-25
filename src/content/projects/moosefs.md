@@ -11,7 +11,7 @@ project:
   type: "C"
   ci_url: "https://github.com/moosefs/moosefs#supported-platforms"
   url: "https://github.com/moosefs/moosefs#supported-platforms"
-  logo: "/public/assets/projectLogos/moosefs.png"
+  logo: "/assets/projectLogos/moosefs.png"
 ---
 
 <p>MooseFS</p>

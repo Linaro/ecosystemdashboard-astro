@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "OpenCAS"
   project_official_url: "https://open-cas.github.io/"
-  logo: "/public/assets/projectLogos/opencas.png"
+  logo: "/assets/projectLogos/opencas.png"
   overview: "Open Cache Acceleration Software (Open CAS) is an open source project encompassing block caching software libraries, adapters, tools and more. The main goal of this cache acceleration software is to accelerate a backend block device(s) by utilizing a higher performance device(s)."
 
 ---

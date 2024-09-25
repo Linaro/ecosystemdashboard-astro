@@ -11,7 +11,7 @@ project:
   type: "Java"
   url: "https://github.com/broadinstitute/gatk"
   project_official_url: "https://gatk.broadinstitute.org/hc/en-us"
-  logo: "/public/assets/projectLogos/gatk.png"
+  logo: "/assets/projectLogos/gatk.png"
   overview: "GATK4 aims to bring together well-established tools from the GATK and Picard codebases under a streamlined framework, and to enable selected tools to be run in a massively parallel way on local clusters or in the cloud using Apache Spark. It also contains many newly developed tools not present in earlier releases of the toolkit."
 
 supported_releases:

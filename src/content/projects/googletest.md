@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/google/googletest/actions/workflows/gtest-ci.yml"
   url: "https://github.com/google/googletest"
   project_official_url: "https://google.github.io/googletest/"
-  logo: "/public/assets/projectLogos/googletest.png"
+  logo: "/assets/projectLogos/googletest.png"
   overview: "GoogleTest is Google's C++ testing and mocking framework. "
 
 supported_releases:

@@ -10,7 +10,7 @@ project:
   title: "Ranger"
   type: "Python"
   url: "https://github.com/ranger/ranger"
-  logo: "/public/assets/projectLogos/ranger.png"
+  logo: "/assets/projectLogos/ranger.png"
   overview: "ranger is a console file manager with VI key bindings. It provides a minimalistic and nice curses interface with a view on the directory hierarchy. It ships with rifle, a file launcher that is good at automatically finding out which program to use for what file type."
 
 supported_releases:

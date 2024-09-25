@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/HIT-SCIR/ltp/actions"
   url: "https://github.com/HIT-SCIR/ltp"
   project_official_url: "http://ltp.ai/"
-  logo: "/public/assets/projectLogos/ltp.png"
+  logo: "/assets/projectLogos/ltp.png"
   overview: "LTP (Language Technology Platform) provides a series of Chinese natural language processing tools. Users can use these tools to perform word segmentation, part-of-speech tagging, syntactic analysis, etc. on Chinese texts."
 
 supported_releases:

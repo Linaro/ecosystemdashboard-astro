@@ -9,7 +9,7 @@ meta:
 project:
   title: "Livy"
   type: "Scala"
-  logo: "/public/assets/projectLogos/livy.png"
+  logo: "/assets/projectLogos/livy.png"
   url: "Livy"
   project_official_url: "https://livy.apache.org/"
   overview: "Apache Livy is an open source REST interface for interacting with Apache Spark from anywhere. It supports executing snippets of code or programs in a Spark context that runs locally or in Apache Hadoop YARN."

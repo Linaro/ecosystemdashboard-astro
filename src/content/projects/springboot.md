@@ -12,7 +12,7 @@ project:
   ci_url: "https://ci.spring.io/teams/spring-boot/pipelines/spring-boot-3.2.x?groups=Build"
   url: "https://github.com/spring-projects/spring-boot"
   project_official_url: "https://spring.io/projects/spring-boot"
-  logo: "/public/assets/projectLogos/springboot.png"
+  logo: "/assets/projectLogos/springboot.png"
   overview: "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss. It takes an opinionated view of the Spring platform so that new and existing users can quickly get to the bits they need."
 
 supported_releases:

@@ -12,7 +12,7 @@ project:
   ci_url: "https://travis-ci.org/openvswitch/ovs"
   url: "OpenvSwitch"
   project_official_url: "https://www.openvswitch.org/"
-  logo: "/public/assets/projectLogos/ovs.png"
+  logo: "/assets/projectLogos/ovs.png"
   overview: "Open vSwitch is a production quality, multilayer virtual switch licensed under the open source Apache 2.0 license.  It is designed to enable massive network automation through programmatic extension, while still supporting standard management interfaces and protocols (e.g. NetFlow, sFlow, IPFIX, RSPAN, CLI, LACP, 802.1ag)."
 
 supported_releases:

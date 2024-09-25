@@ -12,7 +12,7 @@ project:
   ci_url: "https://ci.appveyor.com/project/rillian/opus"
   url: "https://github.com/xiph/opus"
   project_official_url: "https://opus-codec.org/"
-  logo: "/public/assets/projectLogos/opus.png"
+  logo: "/assets/projectLogos/opus.png"
   overview: "Opus is a totally open, royalty-free, highly versatile audio codec. Opus is unmatched for interactive speech and music transmission over the Internet, but is also intended for storage and streaming applications. It is standardized by the Internet Engineering Task Force (IETF) as [RFC 6716](https://tools.ietf.org/html/rfc6716) which incorporated technology from Skype's SILK codec and Xiph.Org's CELT codec."
 
 supported_releases:

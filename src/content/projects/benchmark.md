@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/google/benchmark/actions"
   url: "https://github.com/google/benchmark"
   project_official_url: "https://github.com/google/benchmark"
-  logo: "/public/assets/projectLogos/benchmark.png"
+  logo: "/assets/projectLogos/benchmark.png"
   overview: "A library to benchmark code snippets, similar to unit tests. "
 
 supported_releases:

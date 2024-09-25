@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "Expat"
   project_official_url: "https://libexpat.github.io/"
-  logo: "/public/assets/projectLogos/expat.png"
+  logo: "/assets/projectLogos/expat.png"
   overview: "Expat is a stream-oriented XML 1.0 parser library, written in C. As one of the first available open-source XML parsers, Expat has found a place in many open-source projects. Such projects include the Apache HTTP Server, Mozilla, Perl, Python and PHP. It is also bound in many other languages."
 
 supported_releases:

@@ -12,7 +12,7 @@ project:
   ci_url: "https://github.com/microsoft/msquic/actions"
   url: "https://github.com/microsoft/msquic"
   project_official_url: "https://github.com/microsoft/msquic"
-  logo: "/public/assets/projectLogos/msquic.png"
+  logo: "/assets/projectLogos/msquic.png"
   overview: "MsQuic is a Microsoft implementation of the IETF QUIC protocol. It is cross-platform, written in C and designed to be a general purpose QUIC library. MsQuic also has C++ API wrapper classes and exposes interop layers for both Rust and C#."
 
 supported_releases:
