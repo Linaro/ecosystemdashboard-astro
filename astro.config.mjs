@@ -6,6 +6,7 @@ import pagefind from "./integrations/pagefind";
 import { loadEnv } from "vite";
 import icon from "astro-icon";
 import mdx from "@astrojs/mdx";
+import aws from "astro-sst";
 
 const { IS_PUBLIC, PRE_BUILD, CUSTOM_DOMAIN } = loadEnv(
   process.env.NODE_ENV,
@@ -17,41 +18,21 @@ const is_pre_build = PRE_BUILD === "true";
 
 // https://astro.build/config
 export default defineConfig({
-  ...(is_public
-    ? {
-        output: "static",
-        integrations: [
-          icon({ iconDir: "src/assets/icons" }),
-          solidJs(),
-          tailwind({
-            applyBaseStyles: false,
-          }),
-          sitemap(),
-          pagefind({
-            is_pre_build: is_pre_build,
-            is_public: is_public,
-          }),
-          mdx(),
-        ],
-      }
-    : {
-        output: PRE_BUILD ? "hybrid" : "server",
-        integrations: [
-          sitemap(),
-          pagefind({
-            is_pre_build: is_pre_build,
-            is_public: is_public,
-          }),
-          tailwind({
-            applyBaseStyles: false,
-          }),
-          solidJs(),
-          icon({
-            iconDir: "src/assets/icons",
-          }),
-          mdx(),
-        ],
-      }),
+  output: "static",
+  adapter: aws(),
+  integrations: [
+    icon({ iconDir: "src/assets/icons" }),
+    solidJs(),
+    tailwind({
+      applyBaseStyles: false,
+    }),
+    sitemap(),
+    pagefind({
+      is_pre_build: is_pre_build,
+      is_public: is_public,
+    }),
+    mdx(),
+  ],
   site: `https://${CUSTOM_DOMAIN}`,
   cacheDir: "./cache",
   compressHTML: true,

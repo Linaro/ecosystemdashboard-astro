@@ -11,7 +11,7 @@ project:
   type: "C"
   url: "KubeOS"
   project_official_url: "https://gitee.com/openeuler/KubeOS"
-  logo: "/src/assets/images/content/projectLogos/kubeOS.png"
+  logo: "/src/assets/images/content/projectLogos/kubeos.png"
   overview: "KubeOS designed for scenarios where services run in containers. KubeOS connects container OSs as components to Kubernetes, so that the container OSs are in the same position as services. The Kubernetes cluster manages containers and container OSs in a unified system."
 
 supported_releases:

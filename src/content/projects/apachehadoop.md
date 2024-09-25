@@ -28,12 +28,12 @@ supported_releases:
 
 user_stories:
   - story:
-    logo: "/assets/images/projects/user_story_logos/kunpeng.png"
+    logo: "/src/assets/images/projects/user_story_logos/kunpeng.png"
     title: "Kunpeng BoostKit for Big Data"
     description: "Kunpeng BoostKit for Big Data addresses issues such as low query efficiency and difficult component performance tuning. It provides open source enablement and tuning guides for major big data components, basic acceleration software packages for smart I/O prefetch and Chinese cryptographic encryption and decryption, application acceleration software packages for machine learning and graph analysis algorithms, and open the openLooKeng cross-source and cross-domain query engine. This improves the big data analysis efficiency and maximizes the computing performance. "
     url: "https://www.hikunpeng.com/en/developer/boostkit/big-data"
   - story:
-    logo: "/assets/images/projects/user_story_logos/china-telecom.png"
+    logo: "/src/assets/images/projects/user_story_logos/china-telecom.png"
     title: "Jiangsu Telecom run BigData on Kunpeng"
     description: "Jiangsu Telecom big data platform carries the operation data, storage and analysis of all production systems of Jiangsu Telecom. It is one of the core business systems and has high requirements for computing performance, concurrent processing capacity and operation stability. After many scheme demonstrations and performance test evaluations, Jiangsu Telecom finally chose Huawei Taishan server based on Kunpeng(Aarch64) processor and open source Hadoop software to build a big data platform. After the platform was launched, it operated stably and significantly improved the business efficiency of Jiangsu Telecom."
     url: "https://www.huawei.com/cn/news/2019/7/jiangsu-telecom-big-data-kunpeng"
