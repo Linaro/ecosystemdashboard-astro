@@ -3,13 +3,13 @@ import { AstroSite } from "sst/constructs";
 export default {
     config(_input) {
         return {
-            name: "ecosystemlandscape-website",
+            name: "ecosystemdashboard-website",
             region: "us-east-1",
         };
     },
     stacks(app) {
         app.stack(function Site({ stack }) {
-            const site = new AstroSite(stack, "EcosystemLandscapeStaticSite", {
+            const site = new AstroSite(stack, "EcosystemDashboardStaticSite", {
                 customDomain: {
                     // domainAlias: process.env.CUSTOM_DOMAIN!.replace("www.", ""),
                     domainName: process.env.CUSTOM_DOMAIN!,

@@ -1,8 +1,8 @@
 # Linaro Arm Ecosystem Dashboard Astro Site
 
-This is the git repository for the [https://ecosystemlandscape.linaro.org](https://ecosystemdashboard.linaro.org/) static Astro website.
+This is the git repository for the [https://ecosystemdashboard.linaro.org](https://ecosystemdashboard.linaro.org/) static Astro website.
 
-Hosted in this repo are the markdown content files associated with the website. Feel free to [submit a PR](https://github.com/Linaro/ecosystemlandscape-astro/pulls) / [Issue](https://github.com/Linaro/ecosystemlandscape-astro/issues/new) if there is anything you would like to change.
+Hosted in this repo are the markdown content files associated with the website. Feel free to [submit a PR](https://github.com/Linaro/ecosystemdashboard-astro/pulls) / [Issue](https://github.com/Linaro/ecosystemdashboard-astro/issues/new) if there is anything you would like to change.
 
 ---
 
@@ -41,7 +41,7 @@ Directory "src/content/projects/" contains all the sub-page info using yaml, so 
 
 \*\* offer a “not available” option so we can flag it.
 
-[1]: https://github.com/Linaro/ecosystemlandscape/blob/main/_posts/2021-08-31-ApacheHadoop.md?plain=1#L32
+[1]: https://github.com/Linaro/ecosystemdashboard/blob/main/_posts/2021-08-31-ApacheHadoop.md?plain=1#L32
 
 ## Dependencies
 

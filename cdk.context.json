@@ -1,6 +1,6 @@
 {
-  "hosted-zone:account=691071635361:domainName=neweco.linaro.org:region=us-east-1": {
-    "Id": "/hostedzone/Z040981729XZPK2E08JLZ",
-    "Name": "neweco.linaro.org."
+  "hosted-zone:account=691071635361:domainName=ecosystemdashboard.linaro.org:region=us-east-1": {
+    "Id": "/hostedzone/Z04357211XJJV09HUGP1C",
+    "Name": "ecosystemdashboard.linaro.org."
   }
 }
