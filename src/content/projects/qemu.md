@@ -4,11 +4,11 @@ permalink: /:title/
 category: cloud
 
 meta:
-  keywords: "Qemu"
+  keywords: "Qemu, Virtualization, Emulation"
 
 project:
   title: "Qemu"
-  type: "C"
+  type: "C, Rust"
   ci_url: "https://gitlab.com/qemu-project/qemu/-/pipelines"
   url: "Qemu"
   project_official_url: "https://www.qemu.org/"
@@ -17,8 +17,8 @@ project:
 
 supported_releases:
   - release:
-    version: "7.0.0"
-    url: "https://download.qemu.org/qemu-7.0.0.tar.xz"
+    version: "9.2.3"
+    url: "https://download.qemu.org/qemu-9.2.3.tar.xz"
 
 project_ci:
   - CI:
